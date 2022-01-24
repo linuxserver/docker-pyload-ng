@@ -1,0 +1,27 @@
+---
+
+# jenkins variables
+project_name: docker-pyload-ng
+external_type: pip_version
+release_type: stable
+release_tag: latest
+ls_branch: main
+repo_vars:
+  - EXT_PIP = 'pyload-ng'
+  - BUILD_VERSION_ARG = 'PYLOAD_VERSION'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-pyload'
+  - CONTAINER_NAME = 'pyload'
+  - DOCKERHUB_IMAGE = 'linuxserver/pyload'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/pyload'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/pyload'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
