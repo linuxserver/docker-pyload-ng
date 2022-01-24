@@ -17,8 +17,10 @@ pipeline {
     GITLAB_TOKEN=credentials('b6f0f1dd-6952-4cf6-95d1-9c06380283f0')
     GITLAB_NAMESPACE=credentials('gitlab-namespace-id')
     SCARF_TOKEN=credentials('scarf_api_key')
-    EXT_PIP = 'pyload-ng'
-    BUILD_VERSION_ARG = 'PYLOAD_VERSION'
+    EXT_GIT_BRANCH = 'develop'
+    EXT_USER = 'pyload'
+    EXT_REPO = 'pyload'
+    BUILD_VERSION_ARG = 'PYLOAD_COMMIT'
     LS_USER = 'linuxserver'
     LS_REPO = 'docker-pyload'
     CONTAINER_NAME = 'pyload'
@@ -100,17 +102,25 @@ pipeline {
     /* ########################
        External Release Tagging
        ######################## */
-    // If this is a pip release set the external tag to the pip version
-    stage("Set ENV pip_version"){
-      steps{
-        script{
-          env.EXT_RELEASE = sh(
-            script: '''curl -sL  https://pypi.python.org/pypi/${EXT_PIP}/json |jq -r '. | .info.version' ''',
-            returnStdout: true).trim()
-          env.RELEASE_LINK = 'https://pypi.python.org/pypi/' + env.EXT_PIP
-        }
-      }
-    }    // Sanitize the release tag and strip illegal docker or github characters
+    // If this is a github commit trigger determine the current commit at head
+    stage("Set ENV github_commit"){
+     steps{
+       script{
+         env.EXT_RELEASE = sh(
+           script: '''curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/commits/${EXT_GIT_BRANCH} | jq -r '. | .sha' | cut -c1-8 ''',
+           returnStdout: true).trim()
+       }
+     }
+    }
+    // If this is a github commit trigger Set the external release link
+    stage("Set ENV commit_link"){
+     steps{
+       script{
+         env.RELEASE_LINK = 'https://github.com/' + env.EXT_USER + '/' + env.EXT_REPO + '/commit/' + env.EXT_RELEASE
+       }
+     }
+    }
+    // Sanitize the release tag and strip illegal docker or github characters
     stage("Sanitize tag"){
       steps{
         script{
@@ -909,11 +919,11 @@ pipeline {
              "tagger": {"name": "LinuxServer Jenkins","email": "jenkins@linuxserver.io","date": "'${GITHUB_DATE}'"}}' '''
         echo "Pushing New release for Tag"
         sh '''#! /bin/bash
-              echo "Updating PIP version of ${EXT_PIP} to ${EXT_RELEASE_CLEAN}" > releasebody.json
+              curl -H "Authorization: token ${GITHUB_TOKEN}" -s https://api.github.com/repos/${EXT_USER}/${EXT_REPO}/commits/${EXT_RELEASE_CLEAN} | jq '.commit.message' | sed 's:^.\\(.*\\).$:\\1:' > releasebody.json
               echo '{"tag_name":"'${META_TAG}'",\
                      "target_commitish": "main",\
                      "name": "'${META_TAG}'",\
-                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n\\n**PIP Changes:**\\n\\n' > start
+                     "body": "**LinuxServer Changes:**\\n\\n'${LS_RELEASE_NOTES}'\\n\\n**'${EXT_REPO}' Changes:**\\n\\n' > start
               printf '","draft": false,"prerelease": false}' >> releasebody.json
               paste -d'\\0' start releasebody.json > releasebody.json.done
               curl -H "Authorization: token ${GITHUB_TOKEN}" -X POST https://api.github.com/repos/${LS_USER}/${LS_REPO}/releases -d @releasebody.json.done'''
