@@ -1,0 +1,19 @@
+#!/usr/bin/with-contenv bash
+
+# create our folders
+mkdir -p \
+    /config/settings \
+    /downloads
+
+# default config file
+[[ ! -f "/config/settings/pyload.cfg" ]] && \
+    cp \
+        /defaults/pyload.cfg \
+        /config/settings/pyload.cfg
+
+# permissions
+echo "[cont-init.d] Setting permissions this may take some time"
+chown -R abc:abc \
+    /config
+chown abc:abc \
+    /downloads

@@ -1,0 +1,29 @@
+---
+
+# jenkins variables
+project_name: docker-pyload-ng
+external_type: github_commit
+release_type: prerelease
+release_tag: develop
+ls_branch: develop
+repo_vars:
+  - EXT_GIT_BRANCH = 'develop'
+  - EXT_USER = 'pyload'
+  - EXT_REPO = 'pyload'
+  - BUILD_VERSION_ARG = 'PYLOAD_COMMIT'
+  - LS_USER = 'linuxserver'
+  - LS_REPO = 'docker-pyload-ng'
+  - CONTAINER_NAME = 'pyload-ng'
+  - DOCKERHUB_IMAGE = 'linuxserver/pyload-ng'
+  - DEV_DOCKERHUB_IMAGE = 'lsiodev/pyload-ng'
+  - PR_DOCKERHUB_IMAGE = 'lspipepr/pyload-ng'
+  - DIST_IMAGE = 'alpine'
+  - MULTIARCH='true'
+  - CI='true'
+  - CI_WEB='true'
+  - CI_PORT='8000'
+  - CI_SSL='false'
+  - CI_DELAY='120'
+  - CI_DOCKERENV='TZ=US/Pacific'
+  - CI_AUTH='user:password'
+  - CI_WEBPATH=''
