@@ -25,21 +25,11 @@ RUN \
   apk add --no-cache \
     curl \
     libjpeg-turbo \
+    p7zip \
     py3-pip \
     python3 \
     sqlite \
     tesseract-ocr && \
-  echo "**** install unrar ****" && \
-  mkdir /tmp/unrar && \
-  curl -o /tmp/unrar.tar.gz \
-    -L "https://www.rarlab.com/rar/unrarsrc-6.1.4.tar.gz" && \
-  tar xf /tmp/unrar.tar.gz -C \
-    /tmp/unrar --strip-components=1 && \
-  cd /tmp/unrar && \
-  make && \
-  make install && \
-  mkdir -p /usr/share/licenses/unrar && \
-  mv license.txt /usr/share/licenses/unrar/ && \
   echo "**** install pyload ****" && \
   if [ -z ${PYLOAD_COMMIT+x} ]; then \
     PYLOAD_COMMIT=$(curl -sX GET "https://api.github.com/repos/pyload/pyload/branches/develop" \
