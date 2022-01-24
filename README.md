@@ -65,7 +65,7 @@ This image provides various versions that are available via tags. `latest` tag u
 | Tag | Description |
 | :----: | --- |
 | latest | Stable releases from pyLoad Next |
-| development | Releases from pyload Next development branch |
+| develop | Releases from pyload Next develop branch |
 
 ## Application Setup
 
