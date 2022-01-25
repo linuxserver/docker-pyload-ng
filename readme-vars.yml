@@ -50,4 +50,5 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "24.01.22:", desc: "Replace unrar with p7zip." }
   - { date: "24.01.22:", desc: "Initial release." }
