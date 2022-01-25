@@ -237,4 +237,5 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **24.01.22:** - Replace unrar with p7zip.
 * **24.01.22:** - Initial release.
