@@ -56,6 +56,7 @@ musl-utils-1.2.2-r7
 ncurses-libs-6.3_p20211120-r0
 ncurses-terminfo-base-6.3_p20211120-r0
 nghttp2-libs-1.46.0-r0
+p7zip-16.02-r4
 pango-1.48.10-r0
 pcre-8.45-r1
 pixman-0.40.0-r3
