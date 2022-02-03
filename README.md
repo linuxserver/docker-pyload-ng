@@ -97,6 +97,7 @@ services:
       - /path/to/downloads:/downloads
     ports:
       - 8000:8000
+      - 9666:9666 #optional
     restart: unless-stopped
 ```
 
@@ -109,6 +110,7 @@ docker run -d \
   -e PGID=1000 \
   -e TZ=Europe/London \
   -p 8000:8000 \
+  -p 9666:9666 `#optional` \
   -v /path/to/appdata/config:/config \
   -v /path/to/downloads:/downloads \
   --restart unless-stopped \
@@ -122,6 +124,7 @@ Container images are configured using parameters passed at runtime (such as thos
 | Parameter | Function |
 | :----: | --- |
 | `-p 8000` | Allows HTTP access to the application |
+| `-p 9666` | Click'n'Load port. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
 | `-e TZ=Europe/London` | Specify a timezone to use EG Europe/London |
@@ -237,5 +240,6 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **02.02.22:** - Add ffmpeg for the Youtube plugin.
 * **24.01.22:** - Replace unrar with p7zip.
 * **24.01.22:** - Initial release.
