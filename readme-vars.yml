@@ -34,9 +34,9 @@ param_env_vars:
   - { env_var: "TZ", env_value: "Europe/London", desc: "Specify a timezone to use EG Europe/London"}
 
 # optional params
-opt_param_usage_include_ports: false
+opt_param_usage_include_ports: true
 opt_param_ports:
-  - { external_port: "7227", internal_port: "7227", port_desc: "pyLoad control port" }
+  - { external_port: "9666", internal_port: "9666", port_desc: "Click'n'Load port." }
 
 
 # application setup block
@@ -50,5 +50,6 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.02.22:", desc: "Add ffmpeg for the Youtube plugin." }
   - { date: "24.01.22:", desc: "Replace unrar with p7zip." }
   - { date: "24.01.22:", desc: "Initial release." }
