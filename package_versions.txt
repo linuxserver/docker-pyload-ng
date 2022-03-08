@@ -11,7 +11,7 @@ ca-certificates-bundle-20211220-r0
 cairo-1.16.0-r3
 coreutils-9.0-r2
 curl-7.80.0-r0
-expat-2.4.6-r0
+expat-2.4.7-r0
 ffmpeg-4.4.1-r2
 ffmpeg-libs-4.4.1-r2
 fontconfig-2.13.1-r4
