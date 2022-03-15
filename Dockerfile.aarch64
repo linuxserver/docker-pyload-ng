@@ -38,7 +38,7 @@ RUN \
   fi && \
   pip3 install -U pip setuptools wheel && \
   pip install -U --find-links https://wheel-index.linuxserver.io/alpine-3.15/ \
-    "git+git://github.com/pyload/pyload.git@${PYLOAD_COMMIT}" && \
+    "git+https://github.com/pyload/pyload.git@${PYLOAD_COMMIT}" && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
