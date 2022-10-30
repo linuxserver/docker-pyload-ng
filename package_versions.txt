@@ -10,7 +10,7 @@ ca-certificates-20220614-r0
 ca-certificates-bundle-20220614-r0
 cairo-1.16.0-r5
 coreutils-9.0-r2
-curl-7.80.0-r3
+curl-7.80.0-r4
 expat-2.5.0-r0
 ffmpeg-4.4.1-r2
 ffmpeg-libs-4.4.1-r2
