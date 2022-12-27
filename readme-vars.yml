@@ -50,6 +50,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "02.02.22:", desc: "Rebase master to alpine 3.17." }
   - { date: "02.02.22:", desc: "Add ffmpeg for the Youtube plugin." }
   - { date: "24.01.22:", desc: "Replace unrar with p7zip." }
   - { date: "24.01.22:", desc: "Initial release." }
