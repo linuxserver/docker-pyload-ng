@@ -12,7 +12,6 @@ cp -n \
     /config/settings/pyload.cfg
 
 # permissions
-echo "[cont-init.d] Setting permissions this may take some time"
 lsiown -R abc:abc \
     /config
 lsiown abc:abc \
