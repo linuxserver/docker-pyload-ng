@@ -1,4 +1,6 @@
-FROM ghcr.io/linuxserver/baseimage-alpine:3.15
+# syntax=docker/dockerfile:1
+
+FROM ghcr.io/linuxserver/baseimage-alpine:3.17
 
 # set version label
 ARG BUILD_DATE
@@ -26,19 +28,19 @@ RUN \
     ffmpeg \
     libjpeg-turbo \
     p7zip \
-    py3-pip \
     python3 \
     sqlite \
     tesseract-ocr && \
   echo "**** install pyload ****" && \
   if [ -z ${PYLOAD_VERSION+x} ]; then \
-    PYLOAD="pyload-ng[all]"; \
-  else \
-    PYLOAD="pyload-ng[all]==${PYLOAD_VERSION}"; \
+    PYLOAD_VERSION=$(curl -sL  https://pypi.python.org/pypi/pyload-ng/json |jq -r '. | .info.version'); \
   fi && \
-  pip3 install -U pip setuptools wheel && \
-  pip install -U --find-links https://wheel-index.linuxserver.io/alpine-3.15/ \
-    "${PYLOAD}" && \
+  python3 -m ensurepip && \
+  pip3 install -U --no-cache-dir \
+    pip \
+    wheel && \
+  pip3 install -U --no-cache-dir --find-links https://wheel-index.linuxserver.io/alpine-3.17/ \
+    pyload-ng[all]=="${PYLOAD_VERSION}" && \
   echo "**** cleanup ****" && \
   apk del --purge \
     build-dependencies && \
