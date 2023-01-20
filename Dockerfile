@@ -25,7 +25,6 @@ RUN \
     zlib-dev && \
   echo "**** install packages ****" && \
   apk add --no-cache \
-    curl \
     ffmpeg \
     libjpeg-turbo \
     p7zip \
