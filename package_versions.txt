@@ -24,7 +24,7 @@ freetype-2.12.1-r0
 fribidi-1.0.12-r0
 gdbm-1.23-r0
 giflib-5.2.1-r2
-glib-2.74.4-r0
+glib-2.74.5-r0
 gmp-6.2.1-r2
 gnutls-3.7.8-r2
 graphite2-1.3.14-r2
