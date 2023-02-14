@@ -1,7 +1,7 @@
 alpine-baselayout-3.4.0-r0
 alpine-baselayout-data-3.4.0-r0
 alpine-keys-2.4-r1
-alpine-release-3.17.1-r0
+alpine-release-3.17.2-r0
 alsa-lib-1.2.8-r0
 aom-libs-3.5.0-r0
 apk-tools-2.12.10-r1
