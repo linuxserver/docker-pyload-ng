@@ -44,7 +44,7 @@ libbsd-0.11.7-r0
 libbz2-1.0.8-r4
 libc-utils-0.7.2-r3
 libcrypto3-3.0.8-r0
-libcurl-7.87.0-r1
+libcurl-7.87.0-r2
 libdav1d-1.0.0-r2
 libdrm-2.4.114-r0
 libexpat-2.5.0-r0
