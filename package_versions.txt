@@ -34,11 +34,11 @@ cheroot                 8.6.0                  python
 cjson                   1.7.15-r3              apk     
 click                   8.1.3                  python  
 coreutils               9.1-r0                 apk     
-cryptography            39.0.2                 python  
+cryptography            40.0.1                 python  
 curl                    7.88.1-r1              apk     
 dbus-libs               1.14.4-r0              apk     
-ffmpeg                  5.1.2-r1               apk     
-ffmpeg-libs             5.1.2-r1               apk     
+ffmpeg                  5.1.3-r0               apk     
+ffmpeg-libs             5.1.3-r0               apk     
 filetype                1.2.0                  python  
 flac-libs               1.4.2-r0               apk     
 fontconfig              2.14.1-r0              apk     
@@ -137,7 +137,7 @@ pyjsparser              2.7.1                  python
 pyload-ng               0.5.0b3                python  
 python                  3.10.10                binary  
 python3                 3.10.10-r0             apk     
-pytz                    2022.7.1               python  
+pytz                    2023.2                 python  
 pytz-deprecation-shim   0.1.0.post0            python  
 readline                8.2.0-r0               apk     
 scanelf                 1.3.5-r1               apk     
@@ -155,9 +155,9 @@ ssl_client              1.35.0-r29             apk
 svt-av1-libs            1.3.0-r0               apk     
 tdb-libs                1.4.7-r0               apk     
 tesseract-ocr           5.2.0-r1               apk     
-tiff                    4.4.0-r1               apk     
-tzdata                  2022.7                 python  
+tiff                    4.4.0-r3               apk     
 tzdata                  2022f-r1               apk     
+tzdata                  2023.2                 python  
 tzlocal                 4.3                    python  
 utmps-libs              0.1.2.0-r1             apk     
 v4l-utils-libs          1.22.1-r2              apk     
