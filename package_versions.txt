@@ -14,7 +14,7 @@ Werkzeug                2.2.3                  python
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
-alpine-release          3.17.2-r0              apk     
+alpine-release          3.17.3-r0              apk     
 alsa-lib                1.2.8-r0               apk     
 aom-libs                3.5.0-r0               apk     
 apk-tools               2.12.10-r1             apk     
@@ -157,7 +157,7 @@ tdb-libs                1.4.6-r0               apk
 tesseract-ocr           5.2.0-r1               apk     
 tiff                    4.4.0-r3               apk     
 tzdata                  2023.3                 python  
-tzdata                  2023b-r1               apk     
+tzdata                  2023c-r0               apk     
 tzlocal                 4.3                    python  
 utmps-libs              0.1.2.0-r1             apk     
 v4l-utils-libs          1.22.1-r2              apk     
