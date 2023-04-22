@@ -128,7 +128,7 @@ p11-kit                 0.24.1-r1              apk
 p7zip                   17.04-r3               apk     
 pango                   1.50.13-r0             apk     
 pcre2                   10.42-r0               apk     
-pip                     23.1                   python  
+pip                     23.1.1                 python  
 pixman                  0.42.2-r0              apk     
 procps                  3.3.17-r2              apk     
 pycparser               2.21                   python  
