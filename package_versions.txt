@@ -133,7 +133,7 @@ p11-kit                 0.24.1-r1              apk
 p7zip                   17.04-r3               apk     
 pango                   1.50.13-r0             apk     
 pcre2                   10.42-r0               apk     
-pip                     23.1                   python  
+pip                     23.1.1                 python  
 pixman                  0.42.2-r0              apk     
 procps                  3.3.17-r2              apk     
 pyOpenSSL               23.1.1                 python  
@@ -143,7 +143,7 @@ pycares                 4.3.0                  python
 pycparser               2.21                   python  
 pycurl                  7.45.2                 python  
 pyjsparser              2.7.1                  python  
-pyload-ng               0.5.0b3.dev54          python  
+pyload-ng               0.5.0b3.dev57          python  
 python                  3.10.11                binary  
 python3                 3.10.11-r0             apk     
 pytz                    2023.3                 python  
