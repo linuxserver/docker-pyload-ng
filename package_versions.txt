@@ -9,7 +9,7 @@ Flask-Themes2           1.0.0                  python
 Jinja2                  3.1.2                  python  
 Js2Py                   0.74                   python  
 MarkupSafe              2.1.2                  python  
-Werkzeug                2.3.0                  python  
+Werkzeug                2.3.1                  python  
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
