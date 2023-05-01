@@ -144,7 +144,7 @@ pycares                 4.3.0                  python
 pycparser               2.21                   python  
 pycurl                  7.45.2                 python  
 pyjsparser              2.7.1                  python  
-pyload-ng               0.5.0b3.dev66          python  
+pyload-ng               0.5.0b3.dev68          python  
 python                  3.10.11                binary  
 python3                 3.10.11-r0             apk     
 pytz                    2022.7.1               python  
