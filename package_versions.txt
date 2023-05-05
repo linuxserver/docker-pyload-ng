@@ -1,7 +1,7 @@
 NAME                    VERSION                TYPE   
 Babel                   2.12.1                 python  
 Brotli                  1.0.9                  python  
-Flask                   2.3.1                  python  
+Flask                   2.3.2                  python  
 Flask-Babel             1.0.0                  python  
 Flask-Caching           1.11.1                 python  
 Flask-Compress          1.13                   python  
@@ -9,7 +9,7 @@ Flask-Themes2           1.0.0                  python
 Jinja2                  3.1.2                  python  
 Js2Py                   0.74                   python  
 MarkupSafe              2.1.2                  python  
-Werkzeug                2.3.2                  python  
+Werkzeug                2.3.3                  python  
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
 alpine-keys             2.4-r1                 apk     
@@ -90,7 +90,7 @@ librist                 0.2.7-r0               apk
 libsndfile              1.1.0-r2               apk     
 libsodium               1.0.18-r2              apk     
 libsrt                  1.5.1-r0               apk     
-libssh                  0.10.4-r0              apk     
+libssh                  0.10.5-r0              apk     
 libssl3                 3.0.8-r4               apk     
 libstdc++               12.2.1_git20220924-r4  apk     
 libtasn1                4.19.0-r0              apk     
