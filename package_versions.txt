@@ -11,7 +11,7 @@ Js2Py                   0.74                   python
 MarkupSafe              2.1.2                  python  
 Pillow                  9.5.0                  python  
 Send2Trash              1.8.2                  python  
-Werkzeug                2.3.3                  python  
+Werkzeug                2.3.4                  python  
 aiodns                  3.0.0                  python  
 alpine-baselayout       3.4.0-r0               apk     
 alpine-baselayout-data  3.4.0-r0               apk     
@@ -28,11 +28,11 @@ brotli-libs             1.0.9-r9               apk
 busybox                 1.35.0                 binary  
 busybox                 1.35.0-r29             apk     
 busybox-binsh           1.35.0-r29             apk     
-ca-certificates         20220614-r4            apk     
-ca-certificates-bundle  20220614-r4            apk     
+ca-certificates         20230506-r0            apk     
+ca-certificates-bundle  20230506-r0            apk     
 cachelib                0.9.0                  python  
 cairo                   1.17.6-r3              apk     
-certifi                 2022.12.7              python  
+certifi                 2023.5.7               python  
 cffi                    1.15.1                 python  
 cheroot                 8.6.0                  python  
 cjson                   1.7.15-r3              apk     
