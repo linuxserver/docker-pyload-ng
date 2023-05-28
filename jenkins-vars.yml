@@ -6,6 +6,7 @@ external_type: pip_version
 release_type: stable
 release_tag: latest
 ls_branch: main
+build_armhf: false
 repo_vars:
   - EXT_PIP = 'pyload-ng'
   - BUILD_VERSION_ARG = 'PYLOAD_VERSION'
