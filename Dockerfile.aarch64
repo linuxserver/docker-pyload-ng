@@ -27,7 +27,7 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     libjpeg-turbo \
-    p7zip \
+    7zip \
     python3 \
     sqlite \
     tesseract-ocr && \
