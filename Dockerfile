@@ -3,6 +3,7 @@
 FROM ghcr.io/linuxserver/baseimage-alpine:3.18
 
 # set version label
+ARG UNRAR_VERSION=6.2.6
 ARG BUILD_DATE
 ARG VERSION
 ARG PYLOAD_VERSION
@@ -26,10 +27,21 @@ RUN \
   apk add --no-cache \
     ffmpeg \
     libjpeg-turbo \
-    p7zip \
+    7zip \
     python3 \
     sqlite \
     tesseract-ocr && \
+  echo "**** install unrar from source ****" && \
+  mkdir /tmp/unrar && \
+  curl -o \
+    /tmp/unrar.tar.gz -L \
+    "https://www.rarlab.com/rar/unrarsrc-${UNRAR_VERSION}.tar.gz" && \  
+  tar xf \
+    /tmp/unrar.tar.gz -C \
+    /tmp/unrar --strip-components=1 && \
+  cd /tmp/unrar && \
+  make && \
+  install -v -m755 unrar /usr/local/bin && \
   echo "**** install pyload ****" && \
   if [ -z ${PYLOAD_VERSION+x} ]; then \
     PYLOAD_VERSION=$(curl -sL  https://pypi.python.org/pypi/pyload-ng/json |jq -r '. | .info.version'); \
