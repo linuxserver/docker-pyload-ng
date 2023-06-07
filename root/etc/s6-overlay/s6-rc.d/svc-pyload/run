@@ -1,6 +1,8 @@
 #!/usr/bin/with-contenv bash
 # shellcheck shell=bash
 
+PORT=$(sed -n -e '/webui/,/proxy/p' /config/settings/pyload.cfg | grep "Port" | awk -F '=' '{print $2}' | tr -d ' ')
+
 exec \
-    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost 8000" \
+    s6-notifyoncheck -d -n 300 -w 1000 -c "nc -z localhost ${PORT:-8000}" \
     s6-setuidgid abc pyload --userdir /config --storagedir /downloads
