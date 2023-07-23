@@ -29,7 +29,7 @@ ca-certificates         20230506-r0             apk
 ca-certificates-bundle  20230506-r0             apk     
 cachelib                0.9.0                   python  
 cairo                   1.17.8-r1               apk     
-certifi                 2023.5.7                python  
+certifi                 2023.7.22               python  
 cffi                    1.15.1                  python  
 cheroot                 8.6.0                   python  
 cjson                   1.7.15-r4               apk     
@@ -149,7 +149,7 @@ orc                     0.4.34-r0               apk
 p11-kit                 0.24.1-r2               apk     
 pango                   1.50.14-r1              apk     
 pcre2                   10.42-r1                apk     
-pip                     23.2                    python  
+pip                     23.2.1                  python  
 pixman                  0.42.2-r1               apk     
 procps-ng               4.0.3-r1                apk     
 pyc                     0.1-r0                  apk     
@@ -188,7 +188,7 @@ v4l-utils-libs          1.24.1-r0               apk
 vidstab                 1.1.1-r0                apk     
 vulkan-loader           1.3.243.0-r1            apk     
 wayland-libs-client     1.22.0-r2               apk     
-wheel                   0.40.0                  python  
+wheel                   0.41.0                  python  
 x264-libs               0.164_git20220602-r1    apk     
 x265-libs               3.5-r4                  apk     
 xvidcore                1.3.7-r1                apk     
