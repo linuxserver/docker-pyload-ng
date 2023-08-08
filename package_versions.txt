@@ -66,7 +66,7 @@ hwdata-pci                  0.370-r0                apk
 icu-data-en                 73.2-r2                 apk     
 icu-libs                    73.2-r2                 apk     
 itsdangerous                2.1.2                   python  
-jaraco.functools            3.8.0                   python  
+jaraco.functools            3.8.1                   python  
 jq                          1.6-r3                  apk     
 lame-libs                   3.100-r5                apk     
 lcms2                       2.15-r2                 apk     
