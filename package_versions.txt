@@ -71,7 +71,7 @@ hwdata-pci                  0.370-r0                apk
 icu-data-en                 73.2-r2                 apk     
 icu-libs                    73.2-r2                 apk     
 itsdangerous                2.1.2                   python  
-jaraco.functools            3.8.0                   python  
+jaraco.functools            3.8.1                   python  
 jq                          1.6-r3                  apk     
 lame-libs                   3.100-r5                apk     
 lcms2                       2.15-r2                 apk     
@@ -200,7 +200,7 @@ v4l-utils-libs              1.24.1-r0               apk
 vidstab                     1.1.1-r0                apk     
 vulkan-loader               1.3.243.0-r1            apk     
 wayland-libs-client         1.22.0-r2               apk     
-wheel                       0.41.0                  python  
+wheel                       0.41.1                  python  
 x264-libs                   0.164_git20220602-r1    apk     
 x265-libs                   3.5-r4                  apk     
 xvidcore                    1.3.7-r1                apk     
