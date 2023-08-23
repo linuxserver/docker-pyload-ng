@@ -2,7 +2,7 @@ NAME                        VERSION                 TYPE
 7zip                        22.01-r5                apk     
 Babel                       2.12.1                  python  
 Brotli                      1.0.9                   python  
-Flask                       2.3.2                   python  
+Flask                       2.3.3                   python  
 Flask-Babel                 1.0.0                   python  
 Flask-Caching               1.11.1                  python  
 Flask-Compress              1.13                    python  
@@ -187,7 +187,7 @@ v4l-utils-libs              1.24.1-r0               apk
 vidstab                     1.1.1-r0                apk     
 vulkan-loader               1.3.243.0-r1            apk     
 wayland-libs-client         1.22.0-r2               apk     
-wheel                       0.41.1                  python  
+wheel                       0.41.2                  python  
 x264-libs                   0.164_git20220602-r1    apk     
 x265-libs                   3.5-r4                  apk     
 xvidcore                    1.3.7-r1                apk     
