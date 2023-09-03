@@ -102,7 +102,7 @@ libpanelw                   6.4_p20230506-r0        apk
 libpciaccess                0.17-r2                 apk     
 libplacebo                  5.264.1-r1              apk     
 libpng                      1.6.39-r3               apk     
-libproc2                    4.0.3-r1                apk     
+libproc2                    4.0.4-r0                apk     
 libpulse                    16.1-r10                apk     
 librist                     0.2.7-r0                apk     
 libsndfile                  1.2.0-r2                apk     
@@ -151,7 +151,7 @@ pango                       1.50.14-r1              apk
 pcre2                       10.42-r1                apk     
 pip                         23.2.1                  python  
 pixman                      0.42.2-r1               apk     
-procps-ng                   4.0.3-r1                apk     
+procps-ng                   4.0.4-r0                apk     
 pyc                         0.1-r0                  apk     
 pycparser                   2.21                    python  
 pycurl                      7.45.2                  python  
