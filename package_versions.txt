@@ -5,7 +5,7 @@ Brotli                      1.1.0                   python
 Flask                       2.3.3                   python  
 Flask-Babel                 1.0.0                   python  
 Flask-Caching               1.11.1                  python  
-Flask-Compress              1.13                    python  
+Flask-Compress              1.14                    python  
 Flask-Themes2               1.0.0                   python  
 Jinja2                      3.1.2                   python  
 Js2Py                       0.74                    python  
