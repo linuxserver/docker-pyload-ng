@@ -149,7 +149,7 @@ orc                         0.4.34-r0               apk
 p11-kit                     0.24.1-r2               apk     
 pango                       1.50.14-r1              apk     
 pcre2                       10.42-r1                apk     
-pip                         23.3                    python  
+pip                         23.3.1                  python  
 pixman                      0.42.2-r1               apk     
 procps-ng                   4.0.4-r0                apk     
 pyc                         0.1-r0                  apk     
