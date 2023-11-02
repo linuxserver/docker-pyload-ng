@@ -21,7 +21,7 @@ aom-libs                    3.6.1-r0                apk
 apk-tools                   2.14.0-r2               apk     
 bash                        5.2.15-r5               apk     
 bitmath                     1.3.3.1                 python  
-blinker                     1.6.3                   python  
+blinker                     1.7.0                   python  
 brotli-libs                 1.0.9-r14               apk     
 busybox                     1.36.1-r4               apk     
 busybox-binsh               1.36.1-r4               apk     
@@ -120,7 +120,7 @@ libvdpau                    1.5-r1                  apk
 libvorbis                   1.3.7-r1                apk     
 libvpx                      1.13.0-r2               apk     
 libwebp                     1.3.2-r0                apk     
-libx11                      1.8.4-r4                apk     
+libx11                      1.8.7-r0                apk     
 libxau                      1.0.11-r2               apk     
 libxcb                      1.15-r1                 apk     
 libxdmcp                    1.1.4-r2                apk     
@@ -187,7 +187,7 @@ v4l-utils-libs              1.24.1-r0               apk
 vidstab                     1.1.1-r0                apk     
 vulkan-loader               1.3.243.0-r1            apk     
 wayland-libs-client         1.22.0-r2               apk     
-wheel                       0.41.2                  python  
+wheel                       0.41.3                  python  
 x264-libs                   0.164_git20220602-r1    apk     
 x265-libs                   3.5-r4                  apk     
 xvidcore                    1.3.7-r1                apk     
