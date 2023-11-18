@@ -29,7 +29,7 @@ ca-certificates           20230506-r0             apk
 ca-certificates-bundle    20230506-r0             apk     
 cachelib                  0.9.0                   python  
 cairo                     1.17.8-r1               apk     
-certifi                   2023.7.22               python  
+certifi                   2023.11.17              python  
 cffi                      1.16.0                  python  
 cheroot                   8.6.0                   python  
 cjson                     1.7.15-r4               apk     
