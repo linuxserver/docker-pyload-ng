@@ -6,7 +6,7 @@ Flask                     2.3.3                   python
 Flask-Babel               1.0.0                   python  
 Flask-Caching             1.11.1                  python  
 Flask-Compress            1.14                    python  
-Flask-Themes2             1.0.0                   python  
+Flask-Themes2             1.0.1                   python  
 Jinja2                    3.1.2                   python  
 Js2Py                     0.74                    python  
 MarkupSafe                2.1.3                   python  
@@ -35,7 +35,7 @@ cheroot                   8.6.0                   python
 cjson                     1.7.15-r4               apk     
 click                     8.1.7                   python  
 coreutils                 9.3-r1                  apk     
-cryptography              41.0.5                  python  
+cryptography              41.0.7                  python  
 curl                      8.4.0-r0                apk     
 dbus-libs                 1.14.8-r0               apk     
 ffmpeg                    6.0.1-r0                apk     
@@ -187,7 +187,7 @@ v4l-utils-libs            1.24.1-r0               apk
 vidstab                   1.1.1-r0                apk     
 vulkan-loader             1.3.243.0-r1            apk     
 wayland-libs-client       1.22.0-r2               apk     
-wheel                     0.41.3                  python  
+wheel                     0.42.0                  python  
 x264-libs                 0.164_git20220602-r1    apk     
 x265-libs                 3.5-r4                  apk     
 xvidcore                  1.3.7-r1                apk     
