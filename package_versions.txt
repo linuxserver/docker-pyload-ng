@@ -18,7 +18,7 @@ aiodns                    3.1.1                   python
 alpine-baselayout         3.4.3-r1                apk     
 alpine-baselayout-data    3.4.3-r1                apk     
 alpine-keys               2.4-r1                  apk     
-alpine-release            3.18.4-r0               apk     
+alpine-release            3.18.5-r0               apk     
 alsa-lib                  1.2.9-r1                apk     
 aom-libs                  3.6.1-r0                apk     
 apk-tools                 2.14.0-r2               apk     
@@ -38,10 +38,10 @@ cffi                      1.16.0                  python
 cheroot                   8.6.0                   python  
 cjson                     1.7.15-r4               apk     
 click                     8.1.7                   python  
-colorlog                  6.7.0                   python  
+colorlog                  6.8.0                   python  
 coreutils                 9.3-r1                  apk     
 cryptography              41.0.7                  python  
-curl                      8.4.0-r0                apk     
+curl                      8.5.0-r0                apk     
 dbus-libs                 1.14.8-r0               apk     
 ffmpeg                    6.0.1-r0                apk     
 ffmpeg-libavcodec         6.0.1-r0                apk     
@@ -85,7 +85,7 @@ libbsd                    0.11.7-r1               apk
 libbz2                    1.0.8-r5                apk     
 libc-utils                0.7.2-r5                apk     
 libcrypto3                3.1.4-r1                apk     
-libcurl                   8.4.0-r0                apk     
+libcurl                   8.5.0-r0                apk     
 libdav1d                  1.2.1-r0                apk     
 libdrm                    2.4.115-r4              apk     
 libexpat                  2.5.0-r1                apk     
