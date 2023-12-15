@@ -1,6 +1,6 @@
 NAME                      VERSION                 TYPE   
 7zip                      22.01-r5                apk     
-Babel                     2.13.1                  python  
+Babel                     2.14.0                  python  
 Brotli                    1.1.0                   python  
 Flask                     2.3.3                   python  
 Flask-Babel               1.0.0                   python  
