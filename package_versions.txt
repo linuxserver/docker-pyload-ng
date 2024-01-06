@@ -165,7 +165,7 @@ pycares                 4.4.0                   python
 pycparser               2.21                    python  
 pycurl                  7.45.2                  python  
 pyjsparser              2.7.1                   python  
-pyload-ng               0.5.0b3.dev76           python  
+pyload-ng               0.5.0b3.dev77           python  
 python3                 3.11.6-r0               apk     
 python3-pyc             3.11.6-r0               apk     
 python3-pycache-pyc0    3.11.6-r0               apk     
