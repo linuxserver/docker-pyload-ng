@@ -23,7 +23,7 @@ development_versions_items:
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/appdata/config", desc: "pyLoad Configuration and files database" }
+  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
   - { vol_path: "/downloads", vol_host_path: "/path/to/downloads", desc: "Destination of pyLoad downloads" }
 param_usage_include_ports: true
 param_ports:
@@ -49,6 +49,7 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "08.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - { date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - { date: "01.06.23:", desc: "Replace p7zip with 7zip, add unrar." }
