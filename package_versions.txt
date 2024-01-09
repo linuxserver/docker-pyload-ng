@@ -138,7 +138,7 @@ libzmq                  4.3.5-r2               apk
 lilv-libs               0.24.22-r0             apk     
 linux-pam               1.5.3-r7               apk     
 mbedtls                 2.28.6-r0              apk     
-more-itertools          10.1.0                 python  
+more-itertools          10.2.0                 python  
 mpdecimal               2.5.1-r2               apk     
 mpg123-libs             1.32.3-r0              apk     
 musl                    1.2.4_git20230717-r4   apk     
