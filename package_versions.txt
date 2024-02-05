@@ -2,7 +2,7 @@ NAME                          VERSION                TYPE
 7zip                          23.01-r0               apk         
 Babel                         2.14.0                 python      
 Brotli                        1.1.0                  python      
-Flask                         3.0.1                  python      
+Flask                         3.0.2                  python      
 Flask-Babel                   1.0.0                  python      
 Flask-Caching                 1.11.1                 python      
 Flask-Compress                1.14                   python      
@@ -216,7 +216,7 @@ pango                         1.51.0-r0              apk
 paste                         1.0.12                 rust-crate  
 pcre2                         10.42-r2               apk         
 pillow                        10.2.0                 python      
-pip                           23.3.2                 python      
+pip                           24.0                   python      
 pixman                        0.42.2-r2              apk         
 ppv-lite86                    0.2.17                 rust-crate  
 proc-macro-error              1.0.4                  rust-crate  
@@ -231,7 +231,7 @@ pycares                       4.4.0                  python
 pycparser                     2.21                   python      
 pycurl                        7.45.2                 python      
 pyjsparser                    2.7.1                  python      
-pyload-ng                     0.5.0b3.dev78          python      
+pyload-ng                     0.5.0b3.dev79          python      
 python3                       3.11.6-r1              apk         
 python3-pyc                   3.11.6-r1              apk         
 python3-pycache-pyc0          3.11.6-r1              apk         
@@ -286,7 +286,7 @@ tesseract-ocr                 5.3.3-r1               apk
 thiserror                     1.0.40                 rust-crate  
 thiserror-impl                1.0.40                 rust-crate  
 tiff                          4.6.0-r0               apk         
-tzdata                        2023d-r0               apk         
+tzdata                        2024a-r0               apk         
 tzlocal                       5.2                    python      
 unicode-ident                 1.0.8                  rust-crate  
 unicode-width                 0.1.10                 rust-crate  
