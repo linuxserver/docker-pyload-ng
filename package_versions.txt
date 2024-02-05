@@ -2,7 +2,7 @@ NAME                          VERSION                TYPE
 7zip                          23.01-r0               apk         
 Babel                         2.14.0                 python      
 Brotli                        1.1.0                  python      
-Flask                         3.0.1                  python      
+Flask                         3.0.2                  python      
 Flask-Babel                   1.0.0                  python      
 Flask-Caching                 1.11.1                 python      
 Flask-Compress                1.14                   python      
@@ -211,7 +211,7 @@ os_str_bytes                  6.5.0                  rust-crate
 pango                         1.51.0-r0              apk         
 paste                         1.0.12                 rust-crate  
 pcre2                         10.42-r2               apk         
-pip                           23.3.2                 python      
+pip                           24.0                   python      
 pixman                        0.42.2-r2              apk         
 ppv-lite86                    0.2.17                 rust-crate  
 proc-macro-error              1.0.4                  rust-crate  
@@ -275,7 +275,7 @@ tesseract-ocr                 5.3.3-r1               apk
 thiserror                     1.0.40                 rust-crate  
 thiserror-impl                1.0.40                 rust-crate  
 tiff                          4.6.0-r0               apk         
-tzdata                        2023d-r0               apk         
+tzdata                        2024a-r0               apk         
 tzlocal                       5.2                    python      
 unicode-ident                 1.0.8                  rust-crate  
 unicode-width                 0.1.10                 rust-crate  
