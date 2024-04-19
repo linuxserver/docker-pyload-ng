@@ -23,7 +23,7 @@ alsa-lib                      1.2.10-r0              apk
 anyhow                        1.0.71                 rust-crate                   
 anyhow                        1.0.75                 rust-crate                   
 aom-libs                      3.7.1-r0               apk                          
-apk-tools                     2.14.3-r1              apk                          
+apk-tools                     2.14.4-r0              apk                          
 arg_enum_proc_macro           0.3.2                  rust-crate                   
 arrayvec                      0.7.2                  rust-crate                   
 av-metrics                    0.9.0                  rust-crate                   
@@ -43,7 +43,7 @@ busybox-binsh                 1.36.1-r15             apk
 c-ares                        1.27.0-r0              apk                          
 ca-certificates               20240226-r0            apk                          
 ca-certificates-bundle        20240226-r0            apk                          
-cachelib                      0.12.0                 python                       
+cachelib                      0.13.0                 python                       
 cairo                         1.18.0-r0              apk                          
 certifi                       2024.2.2               python                       
 cffi                          1.16.0                 python                       
@@ -85,6 +85,7 @@ ffmpeg-libpostproc            6.1.1-r0               apk
 ffmpeg-libswresample          6.1.1-r0               apk                          
 ffmpeg-libswscale             6.1.1-r0               apk                          
 filetype                      1.2.0                  python                       
+findutils                     4.9.0-r5               apk                          
 fontconfig                    2.14.2-r4              apk                          
 freetype                      2.13.2-r0              apk                          
 fribidi                       1.0.13-r0              apk                          
@@ -104,9 +105,9 @@ interpolate_name              0.2.3                  rust-crate
 io-lifetimes                  1.0.10                 rust-crate                   
 is-terminal                   0.4.7                  rust-crate                   
 itertools                     0.10.5                 rust-crate                   
-itsdangerous                  2.1.2                  python                       
+itsdangerous                  2.2.0                  python                       
 ivf                           0.1.2                  rust-crate                   
-jaraco.functools              4.0.0                  python                       
+jaraco.functools              4.0.1                  python                       
 jq                            1.7.1-r0               apk                          
 lab                           0.11.0                 rust-crate                   
 lame-libs                     3.100-r5               apk                          
@@ -227,15 +228,15 @@ procps-ng                     4.0.4-r0               apk
 pyOpenSSL                     24.1.0                 python                       
 pyasn1                        0.6.0                  python                       
 pyasn1_modules                0.4.0                  python                       
-pyc                           3.11.8-r0              apk                          
+pyc                           3.11.9-r0              apk                          
 pycares                       4.4.0                  python                       
 pycparser                     2.22                   python                       
 pycurl                        7.45.3                 python                       
 pyjsparser                    2.7.1                  python                       
 pyload-ng                     0.5.0b3.dev81          python                       
-python3                       3.11.8-r0              apk                          
-python3-pyc                   3.11.8-r0              apk                          
-python3-pycache-pyc0          3.11.8-r0              apk                          
+python3                       3.11.9-r0              apk                          
+python3-pyc                   3.11.9-r0              apk                          
+python3-pycache-pyc0          3.11.9-r0              apk                          
 pytz                          2024.1                 python                       
 quote                         1.0.27                 rust-crate                   
 radium                        0.7.0                  rust-crate                   
