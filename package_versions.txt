@@ -233,7 +233,7 @@ pycares                       4.4.0                  python
 pycparser                     2.22                   python                       
 pycurl                        7.45.3                 python                       
 pyjsparser                    2.7.1                  python                       
-pyload-ng                     0.5.0b3.dev81          python                       
+pyload-ng                     0.5.0b3.dev82          python                       
 python3                       3.11.9-r0              apk                          
 python3-pyc                   3.11.9-r0              apk                          
 python3-pycache-pyc0          3.11.9-r0              apk                          
