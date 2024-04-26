@@ -5,7 +5,7 @@ Brotli                        1.1.0                  python
 Flask                         3.0.3                  python                       
 Flask-Babel                   1.0.0                  python                       
 Flask-Caching                 1.11.1                 python                       
-Flask-Compress                1.14                   python                       
+Flask-Compress                1.15                   python                       
 Flask-Session                 0.8.0                  python                       
 Flask-Themes2                 1.0.1                  python                       
 Jinja2                        3.1.3                  python                       
@@ -308,4 +308,5 @@ y4m                           0.8.0                  rust-crate
 zimg                          3.0.5-r2               apk                          
 zix-libs                      0.4.2-r0               apk                          
 zlib                          1.3.1-r0               apk                          
+zstandard                     0.22.0                 python                       
 zstd-libs                     1.5.5-r8               apk                          
