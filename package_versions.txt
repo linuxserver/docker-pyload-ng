@@ -186,7 +186,7 @@ mbedtls                       2.28.8-r0              apk
 memchr                        2.5.0                  rust-crate                   
 memoffset                     0.8.0                  rust-crate                   
 minimal-lexical               0.2.1                  rust-crate                   
-more-itertools                10.2.0                 python                       
+more-itertools                10.3.0                 python                       
 mpdecimal                     2.5.1-r2               apk                          
 mpg123-libs                   1.32.3-r0              apk                          
 msgspec                       0.18.6                 python                       
