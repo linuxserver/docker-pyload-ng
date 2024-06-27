@@ -41,7 +41,7 @@ Find us at:
 
 [pyLoad](https://pyload.net/) is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web.
 
-[![pyload-ng](https://pyload.net/img/banner.png)](https://pyload.net/)
+[![pyload-ng](https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png)](https://pyload.net/)
 
 ## Supported Architectures
 
@@ -68,7 +68,7 @@ This image provides various versions that are available via tags. Please read th
 
 ## Application Setup
 
-Access the web interface at `http://your-ip:8000` the default login is: 
+Access the web interface at `http://your-ip:8000` the default login is:
 username - **pyload**
 password - **pyload**
 
@@ -290,6 +290,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **27.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **08.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **10.08.23:** - Bump unrar to 6.2.10.
