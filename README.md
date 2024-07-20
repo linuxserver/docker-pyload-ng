@@ -290,13 +290,14 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.07.24:** - Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12.
 * **27.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **08.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
 * **10.08.23:** - Bump unrar to 6.2.10.
 * **01.06.23:** - Replace p7zip with 7zip, add unrar.
 * **25.05.23:** - Rebase to Alpine 3.18, deprecate armhf.
-* **02.02.22:** - Rebase develop to alpine 3.17.
+* **02.02.22:** - Rebase to Alpine 3.17.
 * **02.02.22:** - Add ffmpeg for the Youtube plugin.
 * **24.01.22:** - Replace unrar with p7zip.
 * **24.01.22:** - Initial release.
