@@ -290,6 +290,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **20.07.24:** - Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12.
 * **27.06.24:** - Rebase to Alpine 3.20.
 * **23.12.23:** - Rebase to Alpine 3.19.
 * **08.10.23:** - Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar).
