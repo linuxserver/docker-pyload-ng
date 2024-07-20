@@ -44,13 +44,14 @@ app_setup_block: |
 
 # changelog
 changelogs:
+  - { date: "20.07.24:", desc: "Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12."}
   - { date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
   - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
   - { date: "08.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
   - { date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
   - { date: "01.06.23:", desc: "Replace p7zip with 7zip, add unrar." }
   - { date: "25.05.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
-  - { date: "02.02.22:", desc: "Rebase develop to alpine 3.17." }
+  - { date: "02.02.22:", desc: "Rebase master to alpine 3.17." }
   - { date: "02.02.22:", desc: "Add ffmpeg for the Youtube plugin." }
   - { date: "24.01.22:", desc: "Replace unrar with p7zip." }
   - { date: "24.01.22:", desc: "Initial release." }
