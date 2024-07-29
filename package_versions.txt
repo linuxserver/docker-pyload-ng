@@ -214,7 +214,7 @@ os_str_bytes                  6.5.0                  rust-crate
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
-pip                           24.1.2                 python                       
+pip                           24.2                   python                       
 pixman                        0.42.2-r2              apk                          
 ppv-lite86                    0.2.17                 rust-crate                   
 proc-macro-error              1.0.4                  rust-crate                   
