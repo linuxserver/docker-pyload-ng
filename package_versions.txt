@@ -100,7 +100,7 @@ is-terminal                   0.4.7                  rust-crate
 itertools                     0.10.5                 rust-crate                   
 itsdangerous                  2.2.0                  python                       
 ivf                           0.1.2                  rust-crate                   
-jaraco-functools              4.0.1                  python                       
+jaraco-functools              4.0.2                  python                       
 jinja2                        3.1.4                  python                       
 jq                            1.7.1-r0               apk                          
 js2py                         0.74                   python                       
