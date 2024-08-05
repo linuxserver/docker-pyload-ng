@@ -36,7 +36,7 @@ catatonit                     0.2.0-r0               apk
 certifi                       2024.7.4               python                       
 cffi                          1.16.0                 python                       
 cfg-if                        1.0.0                  rust-crate                   
-cheroot                       8.6.0                  python                       
+cheroot                       10.0.1                 python                       
 cjson                         1.7.17-r0              apk                          
 clap                          4.0.32                 rust-crate                   
 clap_complete                 4.0.7                  rust-crate                   
@@ -288,7 +288,7 @@ vidstab                       1.1.1-r0               apk
 vulkan-loader                 1.3.261.1-r0           apk                          
 wayland-libs-client           1.22.0-r4              apk                          
 werkzeug                      3.0.3                  python                       
-wheel                         0.43.0                 python                       
+wheel                         0.44.0                 python                       
 wyz                           0.5.1                  rust-crate                   
 x264-libs                     0.164_git20231001-r0   apk                          
 x265-libs                     3.5-r4                 apk                          
