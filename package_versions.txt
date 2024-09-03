@@ -56,7 +56,7 @@ crossbeam-deque               0.8.3                  rust-crate
 crossbeam-epoch               0.9.14                 rust-crate                   
 crossbeam-queue               0.3.8                  rust-crate                   
 crossbeam-utils               0.8.15                 rust-crate                   
-cryptography                  43.0.0                 python                       
+cryptography                  43.0.1                 python                       
 curl                          8.9.0-r0               apk                          
 dbus-libs                     1.14.10-r0             apk                          
 dolby_vision                  3.2.0                  rust-crate                   
@@ -181,7 +181,7 @@ linux-raw-sys                 0.3.7                  rust-crate
 log                           0.4.17                 rust-crate                   
 markupsafe                    2.1.5                  python                       
 maybe-rayon                   0.1.1                  rust-crate                   
-mbedtls                       2.28.8-r0              apk                          
+mbedtls                       2.28.9-r0              apk                          
 memchr                        2.5.0                  rust-crate                   
 memoffset                     0.8.0                  rust-crate                   
 minimal-lexical               0.2.1                  rust-crate                   
