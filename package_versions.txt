@@ -4,7 +4,7 @@ Simple Launcher               1.1.0.14               dotnet      (+5 duplicates)
 alpine-baselayout             3.4.3-r2               apk                          
 alpine-baselayout-data        3.4.3-r2               apk                          
 alpine-keys                   2.4-r1                 apk                          
-alpine-release                3.19.3-r0              apk                          
+alpine-release                3.19.4-r0              apk                          
 alsa-lib                      1.2.10-r0              apk                          
 anyhow                        1.0.71                 rust-crate                   
 anyhow                        1.0.75                 rust-crate                   
