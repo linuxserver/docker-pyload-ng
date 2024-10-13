@@ -76,7 +76,7 @@ findutils                     4.9.0-r5               apk
 flask                         3.0.3                  python                       
 flask-babel                   1.0.0                  python                       
 flask-caching                 1.11.1                 python                       
-flask-compress                1.15                   python                       
+flask-compress                1.16                   python                       
 flask-session                 0.8.0                  python                       
 flask-themes2                 1.0.1                  python                       
 fontconfig                    2.14.2-r4              apk                          
