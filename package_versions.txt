@@ -59,7 +59,7 @@ crossbeam-deque               0.8.3                  rust-crate
 crossbeam-epoch               0.9.14                 rust-crate                   
 crossbeam-queue               0.3.8                  rust-crate                   
 crossbeam-utils               0.8.15                 rust-crate                   
-cryptography                  43.0.1                 python                       
+cryptography                  43.0.3                 python                       
 curl                          8.9.1-r1               apk                          
 dbus-libs                     1.14.10-r0             apk                          
 dolby_vision                  3.2.0                  rust-crate                   
@@ -79,7 +79,7 @@ findutils                     4.9.0-r5               apk
 flask                         3.0.3                  python                       
 flask-babel                   1.0.0                  python                       
 flask-caching                 1.11.1                 python                       
-flask-compress                1.15                   python                       
+flask-compress                1.17                   python                       
 flask-session                 0.8.0                  python                       
 flask-themes2                 1.0.1                  python                       
 fontconfig                    2.14.2-r4              apk                          
@@ -182,7 +182,7 @@ lilv-libs                     0.24.22-r0             apk
 linux-pam                     1.5.3-r7               apk                          
 linux-raw-sys                 0.3.7                  rust-crate                   
 log                           0.4.17                 rust-crate                   
-markupsafe                    3.0.1                  python                       
+markupsafe                    3.0.2                  python                       
 maybe-rayon                   0.1.1                  rust-crate                   
 mbedtls                       2.28.9-r0              apk                          
 memchr                        2.5.0                  rust-crate                   
@@ -216,7 +216,7 @@ os_str_bytes                  6.5.0                  rust-crate
 pango                         1.51.0-r0              apk                          
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
-pillow                        10.4.0                 python                       
+pillow                        11.0.0                 python                       
 pip                           24.2                   python                       
 pixman                        0.42.2-r2              apk                          
 ppv-lite86                    0.2.17                 rust-crate                   
