@@ -38,7 +38,7 @@ catatonit                     0.2.0-r0               apk
 certifi                       2024.8.30              python                       
 cffi                          1.17.1                 python                       
 cfg-if                        1.0.0                  rust-crate                   
-cheroot                       8.6.0                  python                       
+cheroot                       10.0.1                 python                       
 cjson                         1.7.17-r0              apk                          
 clap                          4.0.32                 rust-crate                   
 clap_complete                 4.0.7                  rust-crate                   
@@ -231,7 +231,7 @@ pycares                       4.4.0                  python
 pycparser                     2.22                   python                       
 pycurl                        7.45.3                 python                       
 pyjsparser                    2.7.1                  python                       
-pyload-ng                     0.5.0b3.dev85          python                       
+pyload-ng                     0.5.0b3.dev87          python                       
 pyopenssl                     24.2.1                 python                       
 python3                       3.11.10-r0             apk                          
 python3-pyc                   3.11.10-r0             apk                          
