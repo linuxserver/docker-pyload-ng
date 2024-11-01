@@ -45,7 +45,7 @@ clap_complete                 4.0.7                  rust-crate
 clap_derive                   4.0.21                 rust-crate                   
 clap_lex                      0.3.0                  rust-crate                   
 click                         8.1.7                  python                       
-colorlog                      6.8.2                  python                       
+colorlog                      6.9.0                  python                       
 console                       0.15.5                 rust-crate                   
 coreutils                     9.4-r2                 apk                          
 coreutils-env                 9.4-r2                 apk                          
@@ -190,7 +190,7 @@ memoffset                     0.8.0                  rust-crate
 minimal-lexical               0.2.1                  rust-crate                   
 more-itertools                10.5.0                 python                       
 mpdecimal                     2.5.1-r2               apk                          
-mpg123-libs                   1.32.3-r0              apk                          
+mpg123-libs                   1.32.8-r0              apk                          
 msgspec                       0.18.6                 python                       
 musl                          1.2.4_git20230717-r4   apk                          
 musl-utils                    1.2.4_git20230717-r4   apk                          
@@ -217,7 +217,7 @@ pango                         1.51.0-r0              apk
 paste                         1.0.12                 rust-crate                   
 pcre2                         10.42-r2               apk                          
 pillow                        11.0.0                 python                       
-pip                           24.2                   python                       
+pip                           24.3.1                 python                       
 pixman                        0.42.2-r2              apk                          
 ppv-lite86                    0.2.17                 rust-crate                   
 proc-macro-error              1.0.4                  rust-crate                   
@@ -298,7 +298,7 @@ v_frame                       0.3.3                  rust-crate
 vidstab                       1.1.1-r0               apk                          
 vulkan-loader                 1.3.261.1-r0           apk                          
 wayland-libs-client           1.22.0-r4              apk                          
-werkzeug                      3.0.6                  python                       
+werkzeug                      3.1.1                  python                       
 wheel                         0.44.0                 python                       
 wyz                           0.5.1                  rust-crate                   
 x264-libs                     0.164_git20231001-r0   apk                          
