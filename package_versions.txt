@@ -73,7 +73,7 @@ ffmpeg-libswresample          6.1.1-r0               apk
 ffmpeg-libswscale             6.1.1-r0               apk                          
 filetype                      1.2.0                  python                       
 findutils                     4.9.0-r5               apk                          
-flask                         3.0.3                  python                       
+flask                         3.1.0                  python                       
 flask-babel                   1.0.0                  python                       
 flask-caching                 1.11.1                 python                       
 flask-compress                1.17                   python                       
