@@ -59,7 +59,7 @@ crossbeam-deque               0.8.3                  rust-crate
 crossbeam-epoch               0.9.14                 rust-crate                   
 crossbeam-queue               0.3.8                  rust-crate                   
 crossbeam-utils               0.8.15                 rust-crate                   
-cryptography                  43.0.3                 python                       
+cryptography                  44.0.0                 python                       
 curl                          8.9.1-r1               apk                          
 dbus-libs                     1.14.10-r0             apk                          
 dolby_vision                  3.2.0                  rust-crate                   
@@ -227,12 +227,12 @@ procps-ng                     4.0.4-r0               apk
 pyasn1                        0.6.1                  python                       
 pyasn1-modules                0.4.1                  python                       
 pyc                           3.11.10-r0             apk                          
-pycares                       4.4.0                  python                       
+pycares                       4.5.0                  python                       
 pycparser                     2.22                   python                       
 pycurl                        7.45.3                 python                       
 pyjsparser                    2.7.1                  python                       
 pyload-ng                     0.5.0b3.dev87          python                       
-pyopenssl                     24.2.1                 python                       
+pyopenssl                     24.3.0                 python                       
 python3                       3.11.10-r0             apk                          
 python3-pyc                   3.11.10-r0             apk                          
 python3-pycache-pyc0          3.11.10-r0             apk                          
@@ -299,7 +299,7 @@ vidstab                       1.1.1-r0               apk
 vulkan-loader                 1.3.261.1-r0           apk                          
 wayland-libs-client           1.22.0-r4              apk                          
 werkzeug                      3.1.3                  python                       
-wheel                         0.45.0                 python                       
+wheel                         0.45.1                 python                       
 wyz                           0.5.1                  rust-crate                   
 x264-libs                     0.164_git20231001-r0   apk                          
 x265-libs                     3.5-r4                 apk                          
