@@ -6,33 +6,28 @@ project_url: "https://pyload.net/"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png"
 project_blurb: "[pyLoad]({{ project_url }}) is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
-
 # supported architectures
 available_architectures:
-  - { arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
-  - { arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
-
+  - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
+  - {arch: "{{ arch_arm64 }}", tag: "arm64v8-latest"}
 # development version
 development_versions: true
 development_versions_items:
-  - { tag: "latest", desc: "Stable releases from pyLoad Next" }
-  - { tag: "develop", desc: "Releases from pyload Next develop branch" }
-
+  - {tag: "latest", desc: "Stable releases from pyLoad Next"}
+  - {tag: "develop", desc: "Releases from pyload Next develop branch"}
 # container parameters
 param_container_name: "{{ project_name }}"
 param_usage_include_vols: true
 param_volumes:
-  - { vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files" }
-  - { vol_path: "/downloads", vol_host_path: "/path/to/downloads", desc: "Destination of pyLoad downloads" }
+  - {vol_path: "/config", vol_host_path: "/path/to/{{ project_name }}/config", desc: "Persistent config files"}
+  - {vol_path: "/downloads", vol_host_path: "/path/to/downloads", desc: "Destination of pyLoad downloads"}
 param_usage_include_ports: true
 param_ports:
-  - { external_port: "8000", internal_port: "8000", port_desc: "Allows HTTP access to the application" }
-
+  - {external_port: "8000", internal_port: "8000", port_desc: "Allows HTTP access to the application"}
 # optional params
 opt_param_usage_include_ports: true
 opt_param_ports:
-  - { external_port: "9666", internal_port: "9666", port_desc: "Click'n'Load port." }
-
+  - {external_port: "9666", internal_port: "9666", port_desc: "Click'n'Load port."}
 # application setup block
 app_setup_block_enabled: true
 app_setup_block: |
@@ -41,17 +36,59 @@ app_setup_block: |
   password - **pyload**
 
   For general usage please see the pyLoad wiki [here](https://github.com/pyload/pyload/wiki) .
-
+# init diagram
+init_diagram: |
+  "pyload-ng:latest": {
+    docker-mods
+    base {
+      fix-attr +\nlegacy cont-init
+    }
+    docker-mods -> base
+    legacy-services
+    custom services
+    init-services -> legacy-services
+    init-services -> custom services
+    custom services -> legacy-services
+    legacy-services -> ci-service-check
+    init-migrations -> init-adduser
+    init-os-end -> init-config
+    init-config -> init-config-end
+    init-pyload-config -> init-config-end
+    init-os-end -> init-crontab-config
+    init-mods-end -> init-custom-files
+    base -> init-envfile
+    base -> init-migrations
+    base -> init-mods
+    init-config-end -> init-mods
+    init-mods -> init-mods-end
+    init-mods-package-install -> init-mods-end
+    init-mods -> init-mods-package-install
+    base -> init-os-end
+    init-adduser -> init-os-end
+    init-envfile -> init-os-end
+    init-migrations -> init-os-end
+    init-config -> init-pyload-config
+    init-custom-files -> init-services
+    init-mods-end -> init-services
+    init-services -> svc-cron
+    svc-cron -> legacy-services
+    init-services -> svc-pyload
+    svc-pyload -> legacy-services
+  }
+  Base Images: {
+    "baseimage-alpine:3.19"
+  }
+  "pyload-ng:latest" <- Base Images
 # changelog
 changelogs:
-  - { date: "20.07.24:", desc: "Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12."}
-  - { date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
-  - { date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
-  - { date: "08.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
-  - { date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
-  - { date: "01.06.23:", desc: "Replace p7zip with 7zip, add unrar." }
-  - { date: "25.05.23:", desc: "Rebase to Alpine 3.18, deprecate armhf." }
-  - { date: "02.02.22:", desc: "Rebase master to alpine 3.17." }
-  - { date: "02.02.22:", desc: "Add ffmpeg for the Youtube plugin." }
-  - { date: "24.01.22:", desc: "Replace unrar with p7zip." }
-  - { date: "24.01.22:", desc: "Initial release." }
+  - {date: "20.07.24:", desc: "Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12."}
+  - {date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
+  - {date: "23.12.23:", desc: "Rebase to Alpine 3.19."}
+  - {date: "08.10.23:", desc: "Install unrar from [linuxserver repo](https://github.com/linuxserver/docker-unrar)."}
+  - {date: "10.08.23:", desc: "Bump unrar to 6.2.10."}
+  - {date: "01.06.23:", desc: "Replace p7zip with 7zip, add unrar."}
+  - {date: "25.05.23:", desc: "Rebase to Alpine 3.18, deprecate armhf."}
+  - {date: "02.02.22:", desc: "Rebase master to alpine 3.17."}
+  - {date: "02.02.22:", desc: "Add ffmpeg for the Youtube plugin."}
+  - {date: "24.01.22:", desc: "Replace unrar with p7zip."}
+  - {date: "24.01.22:", desc: "Initial release."}
