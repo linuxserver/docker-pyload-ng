@@ -74,10 +74,12 @@ password - **pyload**
 
 For general usage please see the pyLoad wiki [here](https://github.com/pyload/pyload/wiki) .
 
- 
 ## Usage
 
 To help you get started creating a container from this image you can either use docker-compose or the docker cli.
+
+>[!NOTE]
+>Unless a parameter is flaged as 'optional', it is *mandatory* and a value must be provided.
 
 ### docker-compose (recommended, [click here for more info](https://docs.linuxserver.io/general/docker-compose))
 
@@ -122,7 +124,7 @@ Containers are configured using parameters passed at runtime (such as those abov
 
 | Parameter | Function |
 | :----: | --- |
-| `-p 8000` | Allows HTTP access to the application |
+| `-p 8000:8000` | Allows HTTP access to the application |
 | `-p 9666` | Click'n'Load port. |
 | `-e PUID=1000` | for UserID - see below for explanation |
 | `-e PGID=1000` | for GroupID - see below for explanation |
