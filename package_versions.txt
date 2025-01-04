@@ -28,8 +28,8 @@ brotli-libs                   1.1.0-r1               apk
 busybox                       1.36.1-r19             apk                          
 busybox-binsh                 1.36.1-r19             apk                          
 c-ares                        1.27.0-r0              apk                          
-ca-certificates               20240226-r0            apk                          
-ca-certificates-bundle        20240226-r0            apk                          
+ca-certificates               20241121-r0            apk                          
+ca-certificates-bundle        20241121-r0            apk                          
 cachelib                      0.13.0                 python                       
 cairo                         1.18.0-r0              apk                          
 catatonit                     0.2.0-r0               apk                          
@@ -277,7 +277,7 @@ tesseract-ocr                 5.3.3-r1               apk
 thiserror                     1.0.40                 rust-crate                   
 thiserror-impl                1.0.40                 rust-crate                   
 tiff                          4.6.0-r0               apk                          
-tzdata                        2024a-r0               apk                          
+tzdata                        2024b-r0               apk                          
 tzlocal                       5.2                    python                       
 unicode-ident                 1.0.8                  rust-crate                   
 unicode-width                 0.1.10                 rust-crate                   
