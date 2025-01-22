@@ -6,6 +6,7 @@ project_url: "https://pyload.net/"
 project_logo: "https://github.com/linuxserver/docker-templates/raw/master/linuxserver.io/img/pyload-logo.png"
 project_blurb: "[pyLoad]({{ project_url }}) is a Free and Open Source download manager written in Python and designed to be extremely lightweight, easily extensible and fully manageable via web."
 project_lsio_github_repo_url: "https://github.com/linuxserver/docker-{{ project_name }}"
+project_categories: "Downloaders"
 # supported architectures
 available_architectures:
   - {arch: "{{ arch_x86_64 }}", tag: "amd64-latest"}
