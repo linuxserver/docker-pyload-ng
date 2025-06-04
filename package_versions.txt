@@ -23,7 +23,7 @@ c-ares                  1.34.5-r0         apk
 ca-certificates         20241121-r1       apk                      
 ca-certificates-bundle  20241121-r1       apk                      
 cachelib                0.13.0            python                   
-cairo                   1.18.2-r1         apk                      
+cairo                   1.18.4-r0         apk                      
 catatonit               0.2.0-r0          apk                      
 certifi                 2025.4.26         python                   
 cffi                    1.17.1            python                   
