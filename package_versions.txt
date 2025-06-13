@@ -2,7 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
-aiodns                  3.4.0             python                       
+aiodns                  3.5.0             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
@@ -72,7 +72,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            45.0.3            python                       
+cryptography            45.0.4            python                       
 curl                    8.14.1-r0         apk                          
 dbus-libs               1.16.2-r1         apk                          
 dolby_vision            3.3.1             rust-crate                   
@@ -258,7 +258,7 @@ profiling-procmacros    1.0.13            rust-crate
 pyasn1                  0.6.1             python                       
 pyasn1-modules          0.4.2             python                       
 pyc                     3.12.11-r0        apk                          
-pycares                 4.8.0             python                       
+pycares                 4.9.0             python                       
 pycparser               2.22              python                       
 pycurl                  7.45.6            python                       
 pyload-ng               0.5.0b3.dev88     python                       
