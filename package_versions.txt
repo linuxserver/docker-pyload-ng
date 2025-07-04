@@ -69,8 +69,8 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            45.0.4            python                       
-curl                    8.14.1-r0         apk                          
+cryptography            45.0.5            python                       
+curl                    8.14.1-r1         apk                          
 dbus-libs               1.16.2-r1         apk                          
 dolby_vision            3.3.1             rust-crate                   
 dukpy                   0.5.0             python                       
@@ -144,8 +144,8 @@ libbsd                  0.12.2-r0         apk
 libbz2                  1.0.8-r6          apk                          
 libc                    0.2.155           rust-crate                   
 libc                    0.2.172           rust-crate                   
-libcrypto3              3.5.0-r0          apk                          
-libcurl                 8.14.1-r0         apk                          
+libcrypto3              3.5.1-r0          apk                          
+libcurl                 8.14.1-r1         apk                          
 libdav1d                1.5.1-r0          apk                          
 libdeflate              1.23-r0           apk                          
 libdovi                 3.3.1-r1          apk                          
@@ -179,8 +179,8 @@ libsharpyuv             1.5.0-r0          apk
 libsndfile              1.2.2-r2          apk                          
 libsodium               1.0.20-r0         apk                          
 libsrt                  1.5.3-r1          apk                          
-libssh                  0.11.1-r0         apk                          
-libssl3                 3.5.0-r0          apk                          
+libssh                  0.11.2-r0         apk                          
+libssl3                 3.5.1-r0          apk                          
 libstdc++               14.2.0-r6         apk                          
 libtheora               1.1.1-r18         apk                          
 libunibreak             6.1-r0            apk                          
