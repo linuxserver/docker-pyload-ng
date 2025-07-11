@@ -42,7 +42,7 @@ ca-certificates-bundle  20241121-r2       apk
 cachelib                0.13.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2025.6.15         python                       
+certifi                 2025.7.9          python                       
 cffi                    1.17.1            python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 10.0.1            python                       
@@ -94,7 +94,7 @@ findutils               4.10.0-r0         apk
 flask                   3.1.1             python                       
 flask-babel             4.0.0             python                       
 flask-caching           1.11.1            python                       
-flask-compress          1.17              python                       
+flask-compress          1.18              python                       
 flask-session           0.8.0             python                       
 flask-themes2           1.0.1             python                       
 fontconfig              2.15.0-r3         apk                          
@@ -114,8 +114,8 @@ gui-arm64               UNKNOWN           binary
 harfbuzz                11.2.1-r0         apk                          
 heck                    0.4.1             rust-crate                   
 hwdata-pci              0.395-r0          apk                          
-icu-data-en             76.1-r0           apk                          
-icu-libs                76.1-r0           apk                          
+icu-data-en             76.1-r1           apk                          
+icu-libs                76.1-r1           apk                          
 imath                   3.1.12-r0         apk                          
 importlib-metadata      8.0.0             python                       
 inflect                 7.3.1             python                       
@@ -267,6 +267,7 @@ python3                 3.12.11-r0        apk
 python3-pyc             3.12.11-r0        apk                          
 python3-pycache-pyc0    3.12.11-r0        apk                          
 pytz                    2025.2            python                       
+pyzstd                  0.17.0            python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
 rand                    0.8.5             rust-crate                   
@@ -337,5 +338,4 @@ zimg                    3.0.5-r3          apk
 zipp                    3.19.2            python                       
 zix-libs                0.6.2-r0          apk                          
 zlib                    1.3.1-r2          apk                          
-zstandard               0.23.0            python                       
 zstd-libs               1.5.7-r0          apk                          
