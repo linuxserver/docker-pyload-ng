@@ -244,7 +244,7 @@ packaging               25.0              python
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.43-r1          apk                          
-pip                     25.1.1            python                       
+pip                     25.2              python                       
 pixman                  0.46.4-r0         apk                          
 platformdirs            4.2.2             python                       
 ppv-lite86              0.2.17            rust-crate                   
