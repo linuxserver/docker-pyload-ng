@@ -262,7 +262,7 @@ pyc                     3.12.11-r0        apk
 pycares                 4.9.0             python                       
 pycparser               2.22              python                       
 pycurl                  7.45.6            python                       
-pyload-ng               0.5.0b3.dev89     python                       
+pyload-ng               0.5.0b3.dev90     python                       
 pyopenssl               25.1.0            python                       
 python3                 3.12.11-r0        apk                          
 python3-pyc             3.12.11-r0        apk                          
