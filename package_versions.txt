@@ -7,6 +7,7 @@ alpine-baselayout-data  3.7.0-r0          apk
 alpine-keys             2.5-r0            apk                          
 alpine-release          3.22.1-r0         apk                          
 alsa-lib                1.2.14-r0         apk                          
+annotated-types         0.7.0             python                       
 anstream                0.6.5             rust-crate                   
 anstyle                 1.0.4             rust-crate                   
 anstyle-parse           0.2.3             rust-crate                   
@@ -255,6 +256,8 @@ profiling-procmacros    1.0.13            rust-crate
 pyc                     3.12.11-r0        apk                          
 pycparser               2.22              python                       
 pycurl                  7.45.6            python                       
+pydantic                2.10.6            python                       
+pydantic-core           2.27.2            python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.11-r0        apk                          
 python3-pyc             3.12.11-r0        apk                          
