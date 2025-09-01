@@ -80,6 +80,7 @@ init_diagram: |
   "pyload-ng:latest" <- Base Images
 # changelog
 changelogs:
+  - {date: "01.09.25:", desc: "Add new dep, libatomic."}
   - {date: "09.06.25:", desc: "Rebase to Alpine 3.22."}
   - {date: "20.07.24:", desc: "Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12."}
   - {date: "27.06.24:", desc: "Rebase to Alpine 3.20."}
