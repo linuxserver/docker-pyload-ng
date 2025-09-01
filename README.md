@@ -291,6 +291,7 @@ Once registered you can define the dockerfile to use with `-f Dockerfile.aarch64
 
 ## Versions
 
+* **01.09.25:** - Add new dep, libatomic.
 * **09.06.25:** - Rebase to Alpine 3.22.
 * **02.03.25:** - Rebase to Alpine 3.21.
 * **20.07.24:** - Revert to Alpine 3.19 due to inconsistent upstream addon support for Python 3.12.
