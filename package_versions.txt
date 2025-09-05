@@ -213,7 +213,7 @@ memchr                  2.7.1             rust-crate
 mini-racer              0.12.4            python                       
 minimal-lexical         0.2.1             rust-crate                   
 more-itertools          10.3.0            python                       
-more-itertools          10.7.0            python                       
+more-itertools          10.8.0            python                       
 mpdecimal               4.0.1-r0          apk                          
 mpg123-libs             1.32.10-r0        apk                          
 msgspec                 0.19.0            python                       
