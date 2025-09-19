@@ -55,7 +55,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.2.1             python                       
+click                   8.3.0             python                       
 colorchoice             1.0.0             rust-crate                   
 console                 0.15.8            rust-crate                   
 coreutils               9.7-r1            apk                          
@@ -70,7 +70,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            45.0.7            python                       
+cryptography            46.0.1            python                       
 curl                    8.14.1-r1         apk                          
 dbus-libs               1.16.2-r1         apk                          
 dolby_vision            3.3.1             rust-crate                   
