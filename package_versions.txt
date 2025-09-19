@@ -16,7 +16,7 @@ anstyle-query           1.0.2             rust-crate
 anyhow                  1.0.79            rust-crate                   
 anyhow                  1.0.98            rust-crate                   
 aom-libs                3.12.1-r0         apk                          
-apk-tools               2.14.9-r2         apk                          
+apk-tools               2.14.9-r3         apk                          
 arg_enum_proc_macro     0.3.4             rust-crate                   
 arrayvec                0.7.4             rust-crate                   
 autocommand             2.2.2             python                       
@@ -57,7 +57,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.2.1             python                       
+click                   8.3.0             python                       
 colorchoice             1.0.0             rust-crate                   
 colorlog                6.9.0             python                       
 console                 0.15.8            rust-crate                   
@@ -73,7 +73,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            45.0.7            python                       
+cryptography            46.0.1            python                       
 curl                    8.14.1-r1         apk                          
 dbus-libs               1.16.2-r1         apk                          
 dolby_vision            3.3.1             rust-crate                   
@@ -137,7 +137,7 @@ lazy_static             1.4.0             rust-crate
 lcms2                   2.16-r0           apk                          
 leptonica               1.85.0-r0         apk                          
 libSvtAv1Enc            2.3.0-r0          apk                          
-libapk2                 2.14.9-r2         apk                          
+libapk2                 2.14.9-r3         apk                          
 libass                  0.17.3-r0         apk                          
 libasyncns              0.8-r4            apk                          
 libatomic               14.2.0-r6         apk                          
@@ -267,7 +267,7 @@ pycurl                  7.45.6            python
 pydantic                2.10.6            python                       
 pydantic-core           2.27.2            python                       
 pyload-ng               0.5.0b3.dev93     python                       
-pyopenssl               25.1.0            python                       
+pyopenssl               25.3.0            python                       
 python3                 3.12.11-r0        apk                          
 python3-pyc             3.12.11-r0        apk                          
 python3-pycache-pyc0    3.12.11-r0        apk                          
