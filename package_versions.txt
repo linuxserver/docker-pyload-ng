@@ -9,7 +9,7 @@ alpine-keys             2.5-r0            apk
 alpine-release          3.22.1-r0         apk                          
 alsa-lib                1.2.14-r0         apk                          
 annotated-types         0.7.0             python                       
-anstream                0.6.5             rust-crate                   
+anstream                0.6.8             rust-crate                   
 anstyle                 1.0.4             rust-crate                   
 anstyle-parse           0.2.3             rust-crate                   
 anstyle-query           1.0.2             rust-crate                   
@@ -46,7 +46,7 @@ catatonit               0.2.1-r0          apk
 certifi                 2025.8.3          python                       
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
-cheroot                 10.0.1            python                       
+cheroot                 11.0.0            python                       
 cjson                   1.7.18-r1         apk                          
 clap                    4.4.14            rust-crate                   
 clap_builder            4.4.14            rust-crate                   
@@ -148,14 +148,14 @@ libbsd                  0.12.2-r0         apk
 libbz2                  1.0.8-r6          apk                          
 libc                    0.2.155           rust-crate                   
 libc                    0.2.172           rust-crate                   
-libcrypto3              3.5.2-r0          apk                          
+libcrypto3              3.5.3-r1          apk                          
 libcurl                 8.14.1-r1         apk                          
 libdav1d                1.5.1-r0          apk                          
 libdeflate              1.23-r0           apk                          
 libdovi                 3.3.1-r1          apk                          
 libdrm                  2.4.124-r0        apk                          
 libeconf                0.6.3-r0          apk                          
-libexpat                2.7.1-r0          apk                          
+libexpat                2.7.2-r0          apk                          
 libffi                  3.4.8-r0          apk                          
 libflac                 1.4.3-r1          apk                          
 libgcc                  14.2.0-r6         apk                          
@@ -184,7 +184,7 @@ libsndfile              1.2.2-r2          apk
 libsodium               1.0.20-r0         apk                          
 libsrt                  1.5.3-r1          apk                          
 libssh                  0.11.2-r0         apk                          
-libssl3                 3.5.2-r0          apk                          
+libssl3                 3.5.3-r1          apk                          
 libstdc++               14.2.0-r6         apk                          
 libtheora               1.1.1-r18         apk                          
 libunibreak             6.1-r0            apk                          
@@ -263,7 +263,7 @@ pyasn1-modules          0.4.2             python
 pyc                     3.12.11-r0        apk                          
 pycares                 4.11.0            python                       
 pycparser               2.23              python                       
-pycurl                  7.45.6            python                       
+pycurl                  7.45.7            python                       
 pydantic                2.10.6            python                       
 pydantic-core           2.27.2            python                       
 pyload-ng               0.5.0b3.dev93     python                       
@@ -279,7 +279,7 @@ rand                    0.8.5             rust-crate
 rand_chacha             0.3.1             rust-crate                   
 rand_core               0.6.4             rust-crate                   
 rav1e                   0.7.1             rust-crate                   
-rav1e-libs              0.7.1-r0          apk                          
+rav1e-libs              0.7.1-r1          apk                          
 rayon                   1.8.0             rust-crate                   
 rayon-core              1.12.0            rust-crate                   
 readline                8.2.13-r1         apk                          
@@ -315,7 +315,7 @@ terminal_size           0.3.0             rust-crate
 tesseract-ocr           5.5.0-r2          apk                          
 thiserror               1.0.56            rust-crate                   
 thiserror-impl          1.0.56            rust-crate                   
-tiff                    4.7.0-r0          apk                          
+tiff                    4.7.1-r0          apk                          
 tinyvec                 1.9.0             rust-crate                   
 tomli                   2.0.1             python                       
 typeguard               4.3.0             python                       
