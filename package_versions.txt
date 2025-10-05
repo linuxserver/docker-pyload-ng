@@ -36,12 +36,12 @@ brotli-libs             1.1.0-r2          apk
 busybox                 1.37.0-r19        apk                          
 busybox-binsh           1.37.0-r19        apk                          
 c-ares                  1.34.5-r0         apk                          
-ca-certificates         20250619-r0       apk                          
-ca-certificates-bundle  20250619-r0       apk                          
+ca-certificates         20250911-r0       apk                          
+ca-certificates-bundle  20250911-r0       apk                          
 cachelib                0.13.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2025.8.3          python                       
+certifi                 2025.10.5         python                       
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.0.0            python                       
@@ -264,7 +264,7 @@ python3                 3.12.11-r0        apk
 python3-pyc             3.12.11-r0        apk                          
 python3-pycache-pyc0    3.12.11-r0        apk                          
 pytz                    2025.2            python                       
-pyzstd                  0.17.0            python                       
+pyzstd                  0.18.0            python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
 rand                    0.8.5             rust-crate                   
