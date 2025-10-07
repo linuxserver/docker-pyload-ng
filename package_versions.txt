@@ -94,6 +94,7 @@ flask-caching           1.11.1            python
 flask-compress          1.18              python                       
 flask-session           0.8.0             python                       
 flask-themes2           1.0.1             python                       
+flask-wtf               1.2.2             python                       
 fontconfig              2.15.0-r3         apk                          
 freetype                2.13.3-r0         apk                          
 fribidi                 1.0.16-r1         apk                          
@@ -322,6 +323,7 @@ vulkan-loader           1.4.313.0-r0      apk
 wayland-libs-client     1.23.1-r3         apk                          
 werkzeug                3.1.3             python                       
 wheel                   0.45.1            python      (+1 duplicate)   
+wtforms                 3.2.1             python                       
 wyz                     0.5.1             rust-crate                   
 x264-libs               0.164.3108-r0     apk                          
 x265-libs               3.6-r0            apk                          
