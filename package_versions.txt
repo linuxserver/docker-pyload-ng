@@ -73,6 +73,7 @@ crossbeam-utils         0.8.19            rust-crate
 cryptography            46.0.2            python                       
 curl                    8.14.1-r2         apk                          
 dbus-libs               1.16.2-r1         apk                          
+defusedxml              0.7.1             python                       
 dolby_vision            3.3.1             rust-crate                   
 either                  1.9.0             rust-crate                   
 errno                   0.3.8             rust-crate                   
