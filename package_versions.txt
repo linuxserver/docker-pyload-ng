@@ -6,7 +6,7 @@ aiodns                  3.5.0             python
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
-alpine-release          3.22.1-r0         apk                          
+alpine-release          3.22.2-r0         apk                          
 alsa-lib                1.2.14-r0         apk                          
 annotated-types         0.7.0             python                       
 anstream                0.6.8             rust-crate                   
@@ -59,7 +59,7 @@ cli-64                  UNKNOWN           binary
 cli-arm64               UNKNOWN           binary                       
 click                   8.3.0             python                       
 colorchoice             1.0.0             rust-crate                   
-colorlog                6.9.0             python                       
+colorlog                6.10.1            python                       
 console                 0.15.8            rust-crate                   
 coreutils               9.7-r1            apk                          
 coreutils-env           9.7-r1            apk                          
@@ -73,7 +73,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            46.0.2            python                       
+cryptography            46.0.3            python                       
 curl                    8.14.1-r2         apk                          
 dbus-libs               1.16.2-r1         apk                          
 dolby_vision            3.3.1             rust-crate                   
@@ -211,7 +211,7 @@ linux-raw-sys           0.4.12            rust-crate
 log                     0.4.20            rust-crate                   
 markupsafe              3.0.3             python                       
 maybe-rayon             0.1.1             rust-crate                   
-mbedtls                 3.6.4-r0          apk                          
+mbedtls                 3.6.5-r0          apk                          
 memchr                  2.7.1             rust-crate                   
 mini-racer              0.12.4            python                       
 minimal-lexical         0.2.1             rust-crate                   
@@ -249,7 +249,7 @@ packaging               25.0              python
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.43-r1          apk                          
-pillow                  11.3.0            python                       
+pillow                  12.0.0            python                       
 pip                     25.2              python                       
 pixman                  0.46.4-r0         apk                          
 platformdirs            4.2.2             python                       
@@ -260,7 +260,7 @@ profiling               1.0.13            rust-crate
 profiling-procmacros    1.0.13            rust-crate                   
 pyasn1                  0.6.1             python                       
 pyasn1-modules          0.4.2             python                       
-pyc                     3.12.11-r0        apk                          
+pyc                     3.12.12-r0        apk                          
 pycares                 4.11.0            python                       
 pycparser               2.23              python                       
 pycurl                  7.45.7            python                       
@@ -268,9 +268,9 @@ pydantic                2.10.6            python
 pydantic-core           2.27.2            python                       
 pyload-ng               0.5.0b3.dev93     python                       
 pyopenssl               25.3.0            python                       
-python3                 3.12.11-r0        apk                          
-python3-pyc             3.12.11-r0        apk                          
-python3-pycache-pyc0    3.12.11-r0        apk                          
+python3                 3.12.12-r0        apk                          
+python3-pyc             3.12.12-r0        apk                          
+python3-pycache-pyc0    3.12.12-r0        apk                          
 pytz                    2025.2            python                       
 pyzstd                  0.18.0            python                       
 quote                   1.0.35            rust-crate                   
