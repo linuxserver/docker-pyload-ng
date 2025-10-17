@@ -210,7 +210,7 @@ linux-raw-sys           0.4.12            rust-crate
 log                     0.4.20            rust-crate                   
 markupsafe              3.0.3             python                       
 maybe-rayon             0.1.1             rust-crate                   
-mbedtls                 3.6.4-r0          apk                          
+mbedtls                 3.6.5-r0          apk                          
 memchr                  2.7.1             rust-crate                   
 mini-racer              0.12.4            python                       
 minimal-lexical         0.2.1             rust-crate                   
