@@ -46,7 +46,7 @@ certifi                 2025.10.5         python
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.0.0            python                       
-cjson                   1.7.18-r1         apk                          
+cjson                   1.7.19-r0         apk                          
 clap                    4.4.14            rust-crate                   
 clap_builder            4.4.14            rust-crate                   
 clap_complete           4.4.6             rust-crate                   
@@ -249,7 +249,7 @@ packaging               25.0              python
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.46-r0          apk                          
-pip                     25.2              python                       
+pip                     25.3              python                       
 pixman                  0.46.4-r0         apk                          
 platformdirs            4.2.2             python                       
 ppv-lite86              0.2.17            rust-crate                   
