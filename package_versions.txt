@@ -34,7 +34,7 @@ bitstream-io            2.6.0             rust-crate
 bitvec                  1.0.1             rust-crate                   
 bitvec_helpers          3.1.6             rust-crate                   
 blinker                 1.9.0             python                       
-brotli                  1.1.0             python                       
+brotli                  1.2.0             python                       
 brotli-libs             1.1.0-r2          apk                          
 busybox                 1.37.0-r19        apk                          
 busybox-binsh           1.37.0-r19        apk                          
@@ -47,7 +47,7 @@ catatonit               0.2.1-r0          apk
 certifi                 2025.10.5         python                       
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
-cheroot                 11.0.0            python                       
+cheroot                 11.1.2            python                       
 cjson                   1.7.19-r0         apk                          
 clap                    4.4.14            rust-crate                   
 clap_builder            4.4.14            rust-crate                   
@@ -95,7 +95,7 @@ findutils               4.10.0-r0         apk
 flask                   3.1.2             python                       
 flask-babel             4.0.0             python                       
 flask-caching           1.11.1            python                       
-flask-compress          1.20              python                       
+flask-compress          1.23              python                       
 flask-session           0.8.0             python                       
 flask-themes2           1.0.1             python                       
 fontconfig              2.15.0-r3         apk                          
