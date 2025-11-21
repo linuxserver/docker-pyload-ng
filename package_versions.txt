@@ -58,7 +58,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.3.0             python                       
+click                   8.3.1             python                       
 colorchoice             1.0.0             rust-crate                   
 colorlog                6.10.1            python                       
 console                 0.15.8            rust-crate                   
