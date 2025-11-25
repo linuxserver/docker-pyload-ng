@@ -2,6 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
+aia-chaser              3.3.0             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
@@ -23,7 +24,7 @@ av-metrics              0.9.1             rust-crate
 av1-grain               0.2.3             rust-crate                   
 babel                   2.17.0            python                       
 backports-tarfile       1.2.0             python                       
-backports-zstd          1.0.0             python                       
+backports-zstd          1.1.0             python                       
 bash                    5.2.37-r0         apk                          
 bitflags                2.4.1             rust-crate                   
 bitmath                 1.3.3.1           python                       
@@ -219,7 +220,7 @@ more-itertools          10.3.0            python
 more-itertools          10.8.0            python                       
 mpdecimal               4.0.1-r0          apk                          
 mpg123-libs             1.32.10-r0        apk                          
-msgspec                 0.19.0            python                       
+msgspec                 0.20.0            python                       
 musl                    1.2.5-r10         apk                          
 musl-utils              1.2.5-r10         apk                          
 my-test-package         1.0               python                       
