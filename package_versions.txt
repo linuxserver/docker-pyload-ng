@@ -2,7 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
-aiodns                  3.6.0             python                       
+aiodns                  3.6.1             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
@@ -24,7 +24,7 @@ av-metrics              0.9.1             rust-crate
 av1-grain               0.2.3             rust-crate                   
 babel                   2.17.0            python                       
 backports-tarfile       1.2.0             python                       
-backports-zstd          1.1.0             python                       
+backports-zstd          1.2.0             python                       
 bash                    5.2.37-r0         apk                          
 beautifulsoup4          4.14.3            python                       
 bitflags                2.4.1             rust-crate                   
@@ -175,7 +175,7 @@ libopenmpt              0.7.15-r0         apk
 libpanelw               6.5_p20250503-r0  apk                          
 libpciaccess            0.18.1-r0         apk                          
 libplacebo              6.338.2-r3        apk                          
-libpng                  1.6.51-r0         apk                          
+libpng                  1.6.53-r0         apk                          
 libproc2                4.0.4-r3          apk                          
 libpsl                  0.21.5-r3         apk                          
 libpulse                17.0-r5           apk                          
