@@ -2,6 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
+aia-chaser              3.3.0             python                       
 aiodns                  3.6.1             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
@@ -77,6 +78,7 @@ crossbeam-utils         0.8.19            rust-crate
 cryptography            46.0.3            python                       
 curl                    8.14.1-r2         apk                          
 dbus-libs               1.16.2-r1         apk                          
+defusedxml              0.7.1             python                       
 dolby_vision            3.3.1             rust-crate                   
 either                  1.9.0             rust-crate                   
 errno                   0.3.8             rust-crate                   
@@ -98,6 +100,7 @@ flask-caching           1.11.1            python
 flask-compress          1.23              python                       
 flask-session           0.8.0             python                       
 flask-themes2           1.0.1             python                       
+flask-wtf               1.2.2             python                       
 fontconfig              2.15.0-r3         apk                          
 freetype                2.13.3-r0         apk                          
 fribidi                 1.0.16-r1         apk                          
@@ -128,7 +131,7 @@ ivf                     0.1.3             rust-crate
 jaraco-collections      5.1.0             python                       
 jaraco-context          5.3.0             python                       
 jaraco-functools        4.0.1             python                       
-jaraco-functools        4.3.0             python                       
+jaraco-functools        4.4.0             python                       
 jaraco-text             3.12.1            python                       
 jinja2                  3.1.6             python                       
 jq                      1.8.1-r0          apk                          
@@ -267,7 +270,7 @@ pycparser               2.23              python
 pycurl                  7.45.7            python                       
 pydantic                2.10.6            python                       
 pydantic-core           2.27.2            python                       
-pyload-ng               0.5.0b3.dev93     python                       
+pyload-ng               0.5.0b3.dev94     python                       
 pyopenssl               25.3.0            python                       
 python3                 3.12.12-r0        apk                          
 python3-pyc             3.12.12-r0        apk                          
@@ -333,6 +336,7 @@ vulkan-loader           1.4.313.0-r0      apk
 wayland-libs-client     1.23.1-r3         apk                          
 werkzeug                3.1.4             python                       
 wheel                   0.45.1            python      (+1 duplicate)   
+wtforms                 3.2.1             python                       
 wyz                     0.5.1             rust-crate                   
 x264-libs               0.164.3108-r0     apk                          
 x265-libs               3.6-r0            apk                          
