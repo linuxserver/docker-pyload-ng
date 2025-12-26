@@ -214,7 +214,7 @@ markupsafe              3.0.3             python
 maybe-rayon             0.1.1             rust-crate                   
 mbedtls                 3.6.5-r0          apk                          
 memchr                  2.7.1             rust-crate                   
-mini-racer              0.12.4            python                       
+mini-racer              0.13.2            python                       
 minimal-lexical         0.2.1             rust-crate                   
 more-itertools          10.3.0            python                       
 more-itertools          10.8.0            python                       
