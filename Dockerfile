@@ -27,6 +27,7 @@ RUN \
   echo "**** install packages ****" && \
   apk add --no-cache \
     ffmpeg \
+    gcompat \
     libatomic \
     libjpeg-turbo \
     7zip \
