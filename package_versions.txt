@@ -264,8 +264,8 @@ profiling-procmacros    1.0.13            rust-crate
 pyc                     3.12.12-r0        apk                          
 pycparser               2.23              python                       
 pycurl                  7.45.7            python                       
-pydantic                2.10.6            python                       
-pydantic-core           2.27.2            python                       
+pydantic                2.12.5            python                       
+pydantic-core           2.41.5            python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.12-r0        apk                          
 python3-pyc             3.12.12-r0        apk                          
@@ -316,6 +316,7 @@ tomli                   2.0.1             python
 typeguard               4.3.0             python                       
 typing-extensions       4.12.2            python                       
 typing-extensions       4.15.0            python                       
+typing-inspection       0.4.2             python                       
 tzdata                  2025c-r0          apk                          
 unicode-ident           1.0.12            rust-crate                   
 unicode-width           0.1.11            rust-crate                   
