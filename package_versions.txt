@@ -6,7 +6,7 @@ aia-chaser              3.3.0             python
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
-alpine-release          3.22.2-r0         apk                          
+alpine-release          3.22.3-r0         apk                          
 alsa-lib                1.2.14-r0         apk                          
 annotated-types         0.7.0             python                       
 anstream                0.6.8             rust-crate                   
