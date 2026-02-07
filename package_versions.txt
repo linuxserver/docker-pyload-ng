@@ -283,7 +283,7 @@ sdl2-compat             2.32.56-r0        apk
 sdl3                    3.2.16-r0         apk                          
 semver                  2.13.0            python                       
 serd-libs               0.32.4-r0         apk                          
-setuptools              80.10.2           python                       
+setuptools              81.0.0            python                       
 shaderc                 2024.4-r0         apk                          
 shadow                  4.17.3-r0         apk                          
 signal-hook             0.3.17            rust-crate                   
