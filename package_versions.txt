@@ -222,7 +222,6 @@ msgspec                 0.20.0            python
 musl                    1.2.5-r10         apk                          
 musl-obstack            1.2.3-r2          apk                          
 musl-utils              1.2.5-r10         apk                          
-my-test-package         1.0               python                       
 ncurses-terminfo-base   6.5_p20250503-r0  apk                          
 netcat-openbsd          1.229.1-r0        apk                          
 new_debug_unreachable   1.0.4             rust-crate                   
@@ -283,7 +282,7 @@ sdl2-compat             2.32.56-r0        apk
 sdl3                    3.2.16-r0         apk                          
 semver                  2.13.0            python                       
 serd-libs               0.32.4-r0         apk                          
-setuptools              81.0.0            python                       
+setuptools              82.0.0            python                       
 shaderc                 2024.4-r0         apk                          
 shadow                  4.17.3-r0         apk                          
 signal-hook             0.3.17            rust-crate                   
