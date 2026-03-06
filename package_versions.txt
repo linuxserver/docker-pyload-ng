@@ -2,7 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
-aia-chaser              3.3.0             python                       
+aia-chaser              3.4.0             python                       
 aiodns                  4.0.0             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
@@ -272,7 +272,7 @@ pyopenssl               25.3.0            python
 python3                 3.12.12-r0        apk                          
 python3-pyc             3.12.12-r0        apk                          
 python3-pycache-pyc0    3.12.12-r0        apk                          
-pytz                    2025.2            python                       
+pytz                    2026.1.post1      python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
 rand                    0.8.5             rust-crate                   
@@ -311,6 +311,7 @@ ssl_client              1.37.0-r20        apk
 syn                     2.0.48            rust-crate                   
 tap                     1.0.1             rust-crate                   
 tdb-libs                1.4.12-r0         apk                          
+tenacity                9.1.4             python                       
 terminal_size           0.3.0             rust-crate                   
 tesseract-ocr           5.5.0-r2          apk                          
 thiserror               1.0.56            rust-crate                   
