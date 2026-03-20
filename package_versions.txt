@@ -157,7 +157,7 @@ libdeflate              1.23-r0           apk
 libdovi                 3.3.1-r1          apk                          
 libdrm                  2.4.124-r0        apk                          
 libeconf                0.6.3-r0          apk                          
-libexpat                2.7.4-r0          apk                          
+libexpat                2.7.5-r0          apk                          
 libffi                  3.4.8-r0          apk                          
 libflac                 1.4.3-r1          apk                          
 libgcc                  14.2.0-r6         apk                          
@@ -259,7 +259,7 @@ proc-macro2             1.0.76            rust-crate
 procps-ng               4.0.4-r3          apk                          
 profiling               1.0.13            rust-crate                   
 profiling-procmacros    1.0.13            rust-crate                   
-pyasn1                  0.6.2             python                       
+pyasn1                  0.6.3             python                       
 pyasn1-modules          0.4.2             python                       
 pyc                     3.12.12-r0        apk                          
 pycares                 5.0.1             python                       
@@ -268,7 +268,7 @@ pycurl                  7.45.7            python
 pydantic                2.12.5            python                       
 pydantic-core           2.41.5            python                       
 pyload-ng               0.5.0b3.dev96     python                       
-pyopenssl               25.3.0            python                       
+pyopenssl               26.0.0            python                       
 python3                 3.12.12-r0        apk                          
 python3-pyc             3.12.12-r0        apk                          
 python3-pycache-pyc0    3.12.12-r0        apk                          
@@ -298,7 +298,7 @@ signal-hook             0.3.17            rust-crate
 signal-hook-registry    1.4.1             rust-crate                   
 simd_helpers            0.1.0             rust-crate                   
 skalibs-libs            2.14.4.0-r0       apk                          
-slixmpp                 1.13.2            python                       
+slixmpp                 1.14.1            python                       
 sord-libs               0.16.18-r0        apk                          
 soupsieve               2.8.3             python                       
 soxr                    0.1.3-r7          apk                          
