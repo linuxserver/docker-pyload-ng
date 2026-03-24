@@ -320,7 +320,7 @@ v_frame                 0.3.7             rust-crate
 vidstab                 1.1.1-r0          apk                          
 vulkan-loader           1.4.313.0-r0      apk                          
 wayland-libs-client     1.23.1-r3         apk                          
-werkzeug                3.1.6             python                       
+werkzeug                3.1.7             python                       
 wheel                   0.46.3            python      (+1 duplicate)   
 wtforms                 3.2.1             python                       
 wyz                     0.5.1             rust-crate                   
