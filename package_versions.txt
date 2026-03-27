@@ -75,7 +75,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            46.0.5            python                       
+cryptography            46.0.6            python                       
 curl                    8.14.1-r2         apk                          
 dbus-libs               1.16.2-r1         apk                          
 defusedxml              0.7.1             python                       
@@ -176,7 +176,7 @@ libopenmpt              0.7.15-r0         apk
 libpanelw               6.5_p20250503-r0  apk                          
 libpciaccess            0.18.1-r0         apk                          
 libplacebo              6.338.2-r3        apk                          
-libpng                  1.6.55-r0         apk                          
+libpng                  1.6.56-r0         apk                          
 libproc2                4.0.4-r3          apk                          
 libpsl                  0.21.5-r3         apk                          
 libpulse                17.0-r5           apk                          
@@ -331,7 +331,7 @@ v_frame                 0.3.7             rust-crate
 vidstab                 1.1.1-r0          apk                          
 vulkan-loader           1.4.313.0-r0      apk                          
 wayland-libs-client     1.23.1-r3         apk                          
-werkzeug                3.1.6             python                       
+werkzeug                3.1.7             python                       
 wheel                   0.46.3            python      (+1 duplicate)   
 wtforms                 3.2.1             python                       
 wyz                     0.5.1             rust-crate                   
