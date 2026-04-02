@@ -215,7 +215,8 @@ mbedtls                 3.6.6-r0          apk
 memchr                  2.7.1             rust-crate                   
 mini-racer              0.14.1            python                       
 minimal-lexical         0.2.1             rust-crate                   
-more-itertools          10.8.0            python      (+1 duplicate)   
+more-itertools          10.8.0            python                       
+more-itertools          11.0.1            python                       
 mpdecimal               4.0.1-r0          apk                          
 mpg123-libs             1.32.10-r0        apk                          
 msgspec                 0.20.0            python                       
@@ -320,7 +321,7 @@ v_frame                 0.3.7             rust-crate
 vidstab                 1.1.1-r0          apk                          
 vulkan-loader           1.4.313.0-r0      apk                          
 wayland-libs-client     1.23.1-r3         apk                          
-werkzeug                3.1.7             python                       
+werkzeug                3.1.8             python                       
 wheel                   0.46.3            python      (+1 duplicate)   
 wtforms                 3.2.1             python                       
 wyz                     0.5.1             rust-crate                   
