@@ -268,7 +268,7 @@ pycparser               3.0               python
 pycurl                  7.45.7            python                       
 pydantic                2.12.5            python                       
 pydantic-core           2.41.5            python                       
-pyload-ng               0.5.0b3.dev96     python                       
+pyload-ng               0.5.0b3.dev97     python                       
 pyopenssl               26.0.0            python                       
 python3                 3.12.12-r0        apk                          
 python3-pyc             3.12.12-r0        apk                          
