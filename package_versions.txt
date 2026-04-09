@@ -219,7 +219,7 @@ more-itertools          10.8.0            python
 more-itertools          11.0.1            python                       
 mpdecimal               4.0.1-r0          apk                          
 mpg123-libs             1.32.10-r0        apk                          
-msgspec                 0.20.0            python                       
+msgspec                 0.21.0            python                       
 musl                    1.2.5-r10         apk                          
 musl-obstack            1.2.3-r2          apk                          
 musl-utils              1.2.5-r10         apk                          
