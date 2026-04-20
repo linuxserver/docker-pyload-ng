@@ -267,9 +267,9 @@ pyc                     3.12.13-r0        apk
 pycares                 5.0.1             python                       
 pycparser               3.0               python                       
 pycurl                  7.45.7            python                       
-pydantic                2.13.2            python                       
-pydantic-core           2.46.2            python                       
-pyload-ng               0.5.0b3.dev98     python                       
+pydantic                2.13.3            python                       
+pydantic-core           2.46.3            python                       
+pyload-ng               0.5.0b3.dev99     python                       
 pyopenssl               26.0.0            python                       
 python3                 3.12.13-r0        apk                          
 python3-pyc             3.12.13-r0        apk                          
