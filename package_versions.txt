@@ -245,7 +245,7 @@ openexr-libopenexrcore  3.3.2-r0          apk
 opus                    1.5.2-r1          apk                          
 orc                     0.4.40-r1         apk                          
 packaging               26.0              python                       
-packaging               26.1              python                       
+packaging               26.2              python                       
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.46-r0          apk                          
