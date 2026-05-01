@@ -2,7 +2,7 @@ NAME                    VERSION           TYPE
 7zip                    24.09-r0          apk                          
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
-aia-chaser              3.4.0             python                       
+aia-chaser              3.4.1             python                       
 aiodns                  4.0.0             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
@@ -75,7 +75,7 @@ crossbeam-deque         0.8.5             rust-crate
 crossbeam-epoch         0.9.18            rust-crate                   
 crossbeam-queue         0.3.11            rust-crate                   
 crossbeam-utils         0.8.19            rust-crate                   
-cryptography            46.0.7            python                       
+cryptography            47.0.0            python                       
 curl                    8.14.1-r2         apk                          
 dbus-libs               1.16.2-r1         apk                          
 defusedxml              0.7.1             python                       
@@ -136,7 +136,7 @@ jq                      1.8.1-r0          apk
 lab                     0.11.0            rust-crate                   
 lame-libs               3.100-r5          apk                          
 lazy_static             1.4.0             rust-crate                   
-lcms2                   2.16-r0           apk                          
+lcms2                   2.19-r0           apk                          
 leptonica               1.85.0-r0         apk                          
 libSvtAv1Enc            2.3.0-r0          apk                          
 libapk2                 2.14.9-r3         apk                          
@@ -248,12 +248,12 @@ openexr-libopenexrcore  3.3.2-r0          apk
 opus                    1.5.2-r1          apk                          
 orc                     0.4.40-r1         apk                          
 packaging               26.0              python                       
-packaging               26.1              python                       
+packaging               26.2              python                       
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.46-r0          apk                          
 pillow                  12.2.0            python                       
-pip                     26.0.1            python                       
+pip                     26.1              python                       
 pixman                  0.46.4-r0         apk                          
 platformdirs            4.4.0             python                       
 ppv-lite86              0.2.17            rust-crate                   
@@ -266,11 +266,11 @@ pyasn1-modules          0.4.2             python
 pyc                     3.12.13-r0        apk                          
 pycares                 5.0.1             python                       
 pycparser               3.0               python                       
-pycurl                  7.45.7            python                       
+pycurl                  7.46.0            python                       
 pydantic                2.13.3            python                       
 pydantic-core           2.46.3            python                       
 pyload-ng               0.5.0b3.dev99     python                       
-pyopenssl               26.0.0            python                       
+pyopenssl               26.1.0            python                       
 python3                 3.12.13-r0        apk                          
 python3-pyc             3.12.13-r0        apk                          
 python3-pycache-pyc0    3.12.13-r0        apk                          
@@ -300,7 +300,7 @@ signal-hook             0.3.17            rust-crate
 signal-hook-registry    1.4.1             rust-crate                   
 simd_helpers            0.1.0             rust-crate                   
 skalibs-libs            2.14.4.0-r0       apk                          
-slixmpp                 1.14.1            python                       
+slixmpp                 1.15.0            python                       
 sord-libs               0.16.18-r0        apk                          
 soupsieve               2.8.3             python                       
 soxr                    0.1.3-r7          apk                          
@@ -341,7 +341,7 @@ wyz                     0.5.1             rust-crate
 x264-libs               0.164.3108-r0     apk                          
 x265-libs               3.6-r0            apk                          
 xvidcore                1.3.7-r2          apk                          
-xz-libs                 5.8.1-r0          apk                          
+xz-libs                 5.8.3-r0          apk                          
 y4m                     0.8.0             rust-crate                   
 zimg                    3.0.5-r3          apk                          
 zipp                    3.23.0            python                       
