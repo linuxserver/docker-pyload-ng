@@ -24,7 +24,7 @@ av-metrics              0.9.1             rust-crate
 av1-grain               0.2.3             rust-crate                   
 babel                   2.18.0            python                       
 backports-tarfile       1.2.0             python                       
-backports-zstd          1.4.0             python                       
+backports-zstd          1.5.0             python                       
 bash                    5.2.37-r0         apk                          
 bitflags                2.4.1             rust-crate                   
 bitmath                 1.4.0.1           python                       
