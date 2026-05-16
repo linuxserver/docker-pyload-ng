@@ -126,7 +126,8 @@ itertools               0.12.0            rust-crate
 itsdangerous            2.2.0             python                       
 ivf                     0.1.3             rust-crate                   
 jaraco-context          6.1.0             python                       
-jaraco-functools        4.4.0             python      (+1 duplicate)   
+jaraco-functools        4.4.0             python                       
+jaraco-functools        4.5.0             python                       
 jaraco-text             4.0.0             python                       
 jinja2                  3.1.6             python                       
 jq                      1.8.1-r0          apk                          
