@@ -43,7 +43,7 @@ ca-certificates-bundle  20260413-r0       apk
 cachelib                0.14.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.4.22         python                       
+certifi                 2026.5.20         python                       
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
@@ -57,7 +57,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.4.0             python                       
+click                   8.4.1             python                       
 colorchoice             1.0.0             rust-crate                   
 console                 0.15.8            rust-crate                   
 coreutils               9.7-r1            apk                          
