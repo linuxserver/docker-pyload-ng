@@ -3,7 +3,7 @@ NAME                    VERSION           TYPE
 Simple Launcher         1.1.0.14          binary      (+5 duplicates)  
 acl-libs                2.3.2-r1          apk                          
 aia-chaser              3.4.1             python                       
-aiodns                  4.0.3             python                       
+aiodns                  4.0.4             python                       
 alpine-baselayout       3.7.0-r0          apk                          
 alpine-baselayout-data  3.7.0-r0          apk                          
 alpine-keys             2.5-r0            apk                          
@@ -45,7 +45,7 @@ ca-certificates-bundle  20260413-r0       apk
 cachelib                0.14.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.4.22         python                       
+certifi                 2026.5.20         python                       
 cffi                    2.0.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
@@ -59,7 +59,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.4.0             python                       
+click                   8.4.1             python                       
 colorchoice             1.0.0             rust-crate                   
 colorlog                6.10.1            python                       
 console                 0.15.8            rust-crate                   
@@ -220,7 +220,7 @@ memchr                  2.7.1             rust-crate
 mini-racer              0.14.1            python                       
 minimal-lexical         0.2.1             rust-crate                   
 more-itertools          10.8.0            python                       
-more-itertools          11.0.2            python                       
+more-itertools          11.1.0            python                       
 mpdecimal               4.0.1-r0          apk                          
 mpg123-libs             1.32.10-r0        apk                          
 msgspec                 0.21.1            python                       
