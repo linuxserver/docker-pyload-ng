@@ -59,7 +59,7 @@ cli                     UNKNOWN           binary
 cli-32                  UNKNOWN           binary                       
 cli-64                  UNKNOWN           binary                       
 cli-arm64               UNKNOWN           binary                       
-click                   8.4.1             python                       
+click                   8.4.2             python                       
 colorchoice             1.0.0             rust-crate                   
 colorlog                6.10.1            python                       
 console                 0.15.8            rust-crate                   
@@ -158,7 +158,7 @@ libdeflate              1.23-r0           apk
 libdovi                 3.3.1-r1          apk                          
 libdrm                  2.4.124-r0        apk                          
 libeconf                0.6.3-r0          apk                          
-libexpat                2.7.5-r0          apk                          
+libexpat                2.8.1-r0          apk                          
 libffi                  3.4.8-r0          apk                          
 libflac                 1.4.3-r1          apk                          
 libgcc                  14.2.0-r6         apk                          
@@ -242,10 +242,10 @@ numactl                 2.0.18-r0         apk
 once_cell               1.19.0            rust-crate                   
 onevpl-libs             2023.3.1-r2       apk                          
 oniguruma               6.9.10-r0         apk                          
-openexr-libiex          3.3.2-r0          apk                          
-openexr-libilmthread    3.3.2-r0          apk                          
-openexr-libopenexr      3.3.2-r0          apk                          
-openexr-libopenexrcore  3.3.2-r0          apk                          
+openexr-libiex          3.3.11-r0         apk                          
+openexr-libilmthread    3.3.11-r0         apk                          
+openexr-libopenexr      3.3.11-r0         apk                          
+openexr-libopenexrcore  3.3.11-r0         apk                          
 opus                    1.5.2-r1          apk                          
 orc                     0.4.40-r1         apk                          
 packaging               26.0              python                       
