@@ -43,7 +43,7 @@ ca-certificates-bundle  20260611-r0       apk
 cachelib                0.14.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.6.17         python                       
+certifi                 2026.7.22         python                       
 cffi                    2.1.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
