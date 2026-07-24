@@ -9,7 +9,7 @@ alpine-baselayout-data  3.7.0-r0          apk
 alpine-keys             2.5-r0            apk                          
 alpine-release          3.22.5-r0         apk                          
 alsa-lib                1.2.14-r0         apk                          
-annotated-types         0.7.0             python                       
+annotated-types         0.8.0             python                       
 anstream                0.6.8             rust-crate                   
 anstyle                 1.0.4             rust-crate                   
 anstyle-parse           0.2.3             rust-crate                   
@@ -45,7 +45,7 @@ ca-certificates-bundle  20260611-r0       apk
 cachelib                0.14.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.6.17         python                       
+certifi                 2026.7.22         python                       
 cffi                    2.1.0             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
@@ -61,7 +61,7 @@ cli-64                  UNKNOWN           binary
 cli-arm64               UNKNOWN           binary                       
 click                   8.4.2             python                       
 colorchoice             1.0.0             rust-crate                   
-colorlog                6.11.0            python                       
+colorlog                6.12.0            python                       
 console                 0.15.8            rust-crate                   
 coreutils               9.7-r1            apk                          
 coreutils-env           9.7-r1            apk                          
@@ -215,7 +215,7 @@ linux-raw-sys           0.4.12            rust-crate
 log                     0.4.20            rust-crate                   
 markupsafe              3.0.3             python                       
 maybe-rayon             0.1.1             rust-crate                   
-mbedtls                 3.6.6-r0          apk                          
+mbedtls                 3.6.7-r0          apk                          
 memchr                  2.7.1             rust-crate                   
 mini-racer              0.14.1            python                       
 minimal-lexical         0.2.1             rust-crate                   
@@ -303,7 +303,7 @@ simd_helpers            0.1.0             rust-crate
 skalibs-libs            2.14.4.0-r0       apk                          
 slixmpp                 1.17.0            python                       
 sord-libs               0.16.18-r0        apk                          
-soupsieve               2.8.4             python                       
+soupsieve               2.9.1             python                       
 soxr                    0.1.3-r7          apk                          
 speexdsp                1.2.1-r2          apk                          
 spirv-tools             1.4.313.0-r0      apk                          
@@ -324,7 +324,7 @@ tinyvec                 1.9.0             rust-crate
 tomli                   2.4.0             python                       
 typing-extensions       4.16.0            python                       
 typing-inspection       0.4.2             python                       
-tzdata                  2026b-r0          apk                          
+tzdata                  2026c-r0          apk                          
 unicode-ident           1.0.12            rust-crate                   
 unicode-width           0.1.11            rust-crate                   
 utf8parse               0.2.1             rust-crate                   
