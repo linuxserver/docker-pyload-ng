@@ -44,7 +44,7 @@ cachelib                0.15.0            python
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
 certifi                 2026.7.22         python                       
-cffi                    2.1.0             python                       
+cffi                    2.1.1             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
 cjson                   1.7.19-r0         apk                          
@@ -246,11 +246,11 @@ openexr-libopenexrcore  3.3.11-r0         apk
 opus                    1.5.2-r1          apk                          
 orc                     0.4.40-r1         apk                          
 packaging               26.0              python                       
-packaging               26.2              python                       
+packaging               26.3              python                       
 pango                   1.56.3-r0         apk                          
 paste                   1.0.14            rust-crate                   
 pcre2                   10.46-r0          apk                          
-pip                     26.2              python                       
+pip                     26.2.1            python                       
 pixman                  0.46.4-r0         apk                          
 platformdirs            4.4.0             python                       
 ppv-lite86              0.2.17            rust-crate                   
