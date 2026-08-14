@@ -40,7 +40,7 @@ busybox-binsh           1.37.0-r20        apk
 c-ares                  1.34.8-r0         apk                          
 ca-certificates         20260611-r0       apk                          
 ca-certificates-bundle  20260611-r0       apk                          
-cachelib                0.15.2            python                       
+cachelib                0.15.4            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
 certifi                 2026.7.22         python                       
@@ -285,7 +285,7 @@ sdl2-compat             2.32.56-r0        apk
 sdl3                    3.2.16-r0         apk                          
 semver                  3.0.4             python                       
 serd-libs               0.32.4-r0         apk                          
-setuptools              83.0.0            python                       
+setuptools              84.0.0            python                       
 shaderc                 2024.4-r0         apk                          
 shadow                  4.17.3-r0         apk                          
 signal-hook             0.3.17            rust-crate                   
@@ -312,7 +312,7 @@ tiff                    4.7.1-r0          apk
 tinyvec                 1.9.0             rust-crate                   
 tomli                   2.4.0             python                       
 typing-extensions       4.16.0            python                       
-typing-inspection       0.4.2             python                       
+typing-inspection       0.4.4             python                       
 tzdata                  2026c-r0          apk                          
 unicode-ident           1.0.12            rust-crate                   
 unicode-width           0.1.11            rust-crate                   
@@ -325,7 +325,7 @@ vulkan-loader           1.4.313.0-r0      apk
 wayland-libs-client     1.23.1-r3         apk                          
 werkzeug                3.1.8             python                       
 wheel                   0.46.3            python                       
-wheel                   0.47.0            python                       
+wheel                   0.48.0            python                       
 wtforms                 3.2.2             python                       
 wyz                     0.5.1             rust-crate                   
 x264-libs               0.164.3108-r0     apk                          
