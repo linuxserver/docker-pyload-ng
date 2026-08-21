@@ -25,7 +25,7 @@ av-metrics              0.9.1             rust-crate
 av1-grain               0.2.3             rust-crate                   
 babel                   2.18.0            python                       
 backports-tarfile       1.2.0             python                       
-backports-zstd          1.6.0             python                       
+backports-zstd          1.7.0             python                       
 bash                    5.2.37-r0         apk                          
 beautifulsoup4          4.15.0            python                       
 bitflags                2.4.1             rust-crate                   
@@ -42,7 +42,7 @@ busybox-binsh           1.37.0-r20        apk
 c-ares                  1.34.8-r0         apk                          
 ca-certificates         20260611-r0       apk                          
 ca-certificates-bundle  20260611-r0       apk                          
-cachelib                0.15.4            python                       
+cachelib                0.16.1            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
 certifi                 2026.7.22         python                       
@@ -158,7 +158,7 @@ libdeflate              1.23-r0           apk
 libdovi                 3.3.1-r1          apk                          
 libdrm                  2.4.124-r0        apk                          
 libeconf                0.6.3-r0          apk                          
-libexpat                2.8.2-r0          apk                          
+libexpat                2.8.3-r0          apk                          
 libffi                  3.4.8-r0          apk                          
 libflac                 1.4.3-r1          apk                          
 libgcc                  14.2.0-r6         apk                          
@@ -264,7 +264,7 @@ profiling               1.0.13            rust-crate
 profiling-procmacros    1.0.13            rust-crate                   
 pyasn1                  0.6.4             python                       
 pyasn1-modules          0.4.2             python                       
-pyc                     3.12.13-r0        apk                          
+pyc                     3.12.14-r0        apk                          
 pycares                 5.0.1             python                       
 pycparser               3.0               python                       
 pycurl                  7.47.0            python                       
@@ -272,9 +272,9 @@ pydantic                2.13.4            python
 pydantic-core           2.46.4            python                       
 pyload-ng               0.5.0b3.dev101    python                       
 pyopenssl               26.4.0            python                       
-python3                 3.12.13-r0        apk                          
-python3-pyc             3.12.13-r0        apk                          
-python3-pycache-pyc0    3.12.13-r0        apk                          
+python3                 3.12.14-r0        apk                          
+python3-pyc             3.12.14-r0        apk                          
+python3-pycache-pyc0    3.12.14-r0        apk                          
 pytz                    2026.3.post1      python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
