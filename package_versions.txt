@@ -133,7 +133,7 @@ jaraco-functools        4.4.0             python
 jaraco-functools        4.6.0             python                       
 jaraco-text             4.0.0             python                       
 jinja2                  3.1.6             python                       
-jq                      1.8.1-r0          apk                          
+jq                      1.8.2-r0          apk                          
 lab                     0.11.0            rust-crate                   
 lame-libs               3.100-r5          apk                          
 lazy_static             1.4.0             rust-crate                   
@@ -145,7 +145,7 @@ libass                  0.17.3-r0         apk
 libasyncns              0.8-r4            apk                          
 libatomic               14.2.0-r6         apk                          
 libattr                 2.5.2-r2          apk                          
-libblkid                2.41-r9           apk                          
+libblkid                2.41.6-r1         apk                          
 libbluray               1.3.4-r1          apk                          
 libbsd                  0.12.2-r0         apk                          
 libbz2                  1.0.8-r6          apk                          
@@ -170,7 +170,7 @@ libjpeg-turbo           3.1.0-r0          apk
 libjxl                  0.10.3-r2         apk                          
 libltdl                 2.5.4-r1          apk                          
 libmd                   1.1.0-r0          apk                          
-libmount                2.41-r9           apk                          
+libmount                2.41.6-r1         apk                          
 libncursesw             6.5_p20250503-r0  apk                          
 libogg                  1.3.5-r5          apk                          
 libopenmpt              0.7.15-r0         apk                          
@@ -342,7 +342,7 @@ wyz                     0.5.1             rust-crate
 x264-libs               0.164.3108-r0     apk                          
 x265-libs               3.6-r0            apk                          
 xvidcore                1.3.7-r2          apk                          
-xz-libs                 5.8.3-r0          apk                          
+xz-libs                 5.8.4-r0          apk                          
 y4m                     0.8.0             rust-crate                   
 zimg                    3.0.5-r3          apk                          
 zipp                    3.23.0            python                       
