@@ -155,7 +155,7 @@ libdeflate              1.23-r0           apk
 libdovi                 3.3.1-r1          apk                          
 libdrm                  2.4.124-r0        apk                          
 libeconf                0.6.3-r0          apk                          
-libexpat                2.8.4-r0          apk                          
+libexpat                2.8.5-r0          apk                          
 libffi                  3.4.8-r0          apk                          
 libflac                 1.4.3-r1          apk                          
 libgcc                  14.2.0-r6         apk                          
@@ -267,7 +267,7 @@ pyload-ng               0.5.0b3           python
 python3                 3.12.14-r0        apk                          
 python3-pyc             3.12.14-r0        apk                          
 python3-pycache-pyc0    3.12.14-r0        apk                          
-pytz                    2026.3.post1      python                       
+pytz                    2026.4            python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
 rand                    0.8.5             rust-crate                   
