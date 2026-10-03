@@ -210,7 +210,7 @@ lilv-libs               0.24.26-r0        apk
 linux-pam               1.7.0-r4          apk                          
 linux-raw-sys           0.4.12            rust-crate                   
 log                     0.4.20            rust-crate                   
-markupsafe              3.0.3             python                       
+markupsafe              3.0.4             python                       
 maybe-rayon             0.1.1             rust-crate                   
 mbedtls                 3.6.7-r0          apk                          
 memchr                  2.7.1             rust-crate                   
