@@ -267,7 +267,7 @@ pyload-ng               0.5.0b3           python
 python3                 3.12.15-r0        apk                          
 python3-pyc             3.12.15-r0        apk                          
 python3-pycache-pyc0    3.12.15-r0        apk                          
-pytz                    2026.4            python                       
+pytz                    2026.5            python                       
 quote                   1.0.35            rust-crate                   
 radium                  0.7.0             rust-crate                   
 rand                    0.8.5             rust-crate                   
