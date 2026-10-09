@@ -259,10 +259,10 @@ procps-ng               4.0.4-r3          apk
 profiling               1.0.13            rust-crate                   
 profiling-procmacros    1.0.13            rust-crate                   
 pyc                     3.12.15-r0        apk                          
-pycparser               3.0               python                       
+pycparser               3.1               python                       
 pycurl                  7.48.0            python                       
-pydantic                2.13.5            python                       
-pydantic-core           2.46.5            python                       
+pydantic                2.14.0            python                       
+pydantic-core           2.50.0            python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.15-r0        apk                          
 python3-pyc             3.12.15-r0        apk                          
@@ -303,12 +303,12 @@ ssl_client              1.37.0-r20        apk
 syn                     2.0.48            rust-crate                   
 tap                     1.0.1             rust-crate                   
 tdb-libs                1.4.12-r0         apk                          
-tenacity                9.1.4             python                       
+tenacity                9.2.1             python                       
 terminal_size           0.3.0             rust-crate                   
 tesseract-ocr           5.5.0-r2          apk                          
 thiserror               1.0.56            rust-crate                   
 thiserror-impl          1.0.56            rust-crate                   
-tiff                    4.7.1-r0          apk                          
+tiff                    4.7.2-r0          apk                          
 tinyvec                 1.9.0             rust-crate                   
 tomli                   2.4.0             python                       
 typing-extensions       4.16.0            python                       
@@ -336,5 +336,5 @@ y4m                     0.8.0             rust-crate
 zimg                    3.0.5-r3          apk                          
 zipp                    3.23.0            python                       
 zix-libs                0.6.2-r0          apk                          
-zlib                    1.3.2-r0          apk                          
+zlib                    1.3.2-r1          apk                          
 zstd-libs               1.5.7-r0          apk                          
