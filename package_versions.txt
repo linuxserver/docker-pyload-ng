@@ -259,7 +259,7 @@ procps-ng               4.0.4-r3          apk
 profiling               1.0.13            rust-crate                   
 profiling-procmacros    1.0.13            rust-crate                   
 pyc                     3.12.15-r0        apk                          
-pycparser               3.1               python                       
+pycparser               3.11              python                       
 pycurl                  7.48.0            python                       
 pydantic                2.14.0            python                       
 pydantic-core           2.50.0            python                       
