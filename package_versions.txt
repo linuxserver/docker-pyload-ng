@@ -261,8 +261,8 @@ profiling-procmacros    1.0.13            rust-crate
 pyc                     3.12.15-r0        apk                          
 pycparser               3.11              python                       
 pycurl                  7.48.0            python                       
-pydantic                2.14.0            python                       
-pydantic-core           2.50.0            python                       
+pydantic                2.14.1            python                       
+pydantic-core           2.50.1            python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.15-r0        apk                          
 python3-pyc             3.12.15-r0        apk                          
