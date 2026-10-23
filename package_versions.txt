@@ -33,8 +33,8 @@ bitstream-io            2.6.0             rust-crate
 bitvec                  1.0.1             rust-crate                   
 bitvec_helpers          3.1.6             rust-crate                   
 blinker                 1.9.0             python                       
-brotli                  1.2.0             python                       
-brotli-libs             1.1.0-r2          apk                          
+brotli                  1.2.1             python                       
+brotli-libs             1.1.1-r0          apk                          
 busybox                 1.37.0-r20        apk                          
 busybox-binsh           1.37.0-r20        apk                          
 c-ares                  1.34.9-r0         apk                          
@@ -43,7 +43,7 @@ ca-certificates-bundle  20261020-r0       apk
 cachelib                0.17.0            python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.10.19        python                       
+certifi                 2026.10.23        python                       
 cffi                    2.1.1             python                       
 cfg-if                  1.0.0             rust-crate                   
 cheroot                 11.1.2            python                       
@@ -258,7 +258,7 @@ procps-ng               4.0.4-r3          apk
 profiling               1.0.13            rust-crate                   
 profiling-procmacros    1.0.13            rust-crate                   
 pyc                     3.12.15-r0        apk                          
-pycparser               3.11              python                       
+pycparser               3.12              python                       
 pycurl                  7.48.0            python                       
 pydantic                2.14.1            python                       
 pydantic-core           2.50.1            python                       
@@ -325,7 +325,7 @@ wayland-libs-client     1.23.1-r3         apk
 werkzeug                3.1.9             python                       
 wheel                   0.46.3            python                       
 wheel                   0.48.0            python                       
-wtforms                 3.2.2             python                       
+wtforms                 3.3.0             python                       
 wyz                     0.5.1             rust-crate                   
 x264-libs               0.164.3108-r0     apk                          
 x265-libs               3.6-r0            apk                          
