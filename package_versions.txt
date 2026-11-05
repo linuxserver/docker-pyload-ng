@@ -273,8 +273,8 @@ pyasn1-modules          0.4.2             python
 pyc                     3.12.16-r0        apk                          
 pycparser               3.12              python                       
 pycurl                  7.49.0            python                       
-pydantic                2.14.2            python                       
-pydantic-core           2.50.2            python                       
+pydantic                2.14.3            python                       
+pydantic-core           2.50.4            python                       
 pyfcm                   2.1.1             python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.16-r0        apk                          
