@@ -221,7 +221,7 @@ linux-raw-sys           0.4.12            rust-crate
 log                     0.4.20            rust-crate                   
 markupsafe              3.0.4             python                       
 maybe-rayon             0.1.1             rust-crate                   
-mbedtls                 3.6.7-r0          apk                          
+mbedtls                 3.6.8-r0          apk                          
 memchr                  2.7.1             rust-crate                   
 mini-racer              0.14.1            python                       
 minimal-lexical         0.2.1             rust-crate                   
@@ -297,7 +297,7 @@ scan_fmt                0.2.6             rust-crate
 scanelf                 1.3.8-r1          apk                          
 sdl2-compat             2.32.56-r0        apk                          
 sdl3                    3.2.16-r0         apk                          
-semver                  3.1.1             python                       
+semver                  3.1.2             python                       
 serd-libs               0.32.4-r0         apk                          
 setuptools              84.2.1            python                       
 shaderc                 2024.4-r0         apk                          
