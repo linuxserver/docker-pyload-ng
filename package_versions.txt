@@ -45,7 +45,7 @@ c-ares                  1.34.9-r0         apk
 ca-certificates         20261020-r0       apk                          
 ca-certificates-bundle  20261020-r0       apk                          
 cachelib                0.17.2            python                       
-cachetools              8.0.0             python                       
+cachetools              8.0.2             python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
 certifi                 2026.10.23        python                       
@@ -273,8 +273,8 @@ pyasn1-modules          0.4.2             python
 pyc                     3.12.16-r0        apk                          
 pycparser               3.12              python                       
 pycurl                  7.49.0            python                       
-pydantic                2.14.3            python                       
-pydantic-core           2.50.4            python                       
+pydantic                2.14.4            python                       
+pydantic-core           2.50.5            python                       
 pyfcm                   2.1.1             python                       
 pyload-ng               0.5.0b3           python                       
 python3                 3.12.16-r0        apk                          
