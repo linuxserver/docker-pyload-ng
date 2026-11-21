@@ -48,7 +48,7 @@ cachelib                0.17.2            python
 cachetools              8.0.2             python                       
 cairo                   1.18.4-r0         apk                          
 catatonit               0.2.1-r0          apk                          
-certifi                 2026.10.23        python                       
+certifi                 2026.11.20        python                       
 cffi                    2.1.1             python                       
 cfg-if                  1.0.0             rust-crate                   
 charset-normalizer      3.5.2             python                       
@@ -115,7 +115,7 @@ getrandom               0.2.12            rust-crate
 giflib                  5.2.2-r2          apk                          
 glib                    2.84.4-r0         apk                          
 glslang-libs            1.4.309.0-r0      apk                          
-google-auth             2.62.2            python                       
+google-auth             2.63.0            python                       
 graphite2               1.3.14-r6         apk                          
 gui                     UNKNOWN           binary                       
 gui-32                  UNKNOWN           binary                       
