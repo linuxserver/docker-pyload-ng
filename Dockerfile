@@ -33,6 +33,7 @@ RUN \
     libjpeg-turbo \
     7zip \
     python3 \
+    python3-extra \
     sqlite \
     tesseract-ocr && \
   echo "**** install pyload ****" && \
