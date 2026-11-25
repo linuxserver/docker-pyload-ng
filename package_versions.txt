@@ -29,7 +29,7 @@ autocommand             2.2.2             python
 av-metrics              0.9.1             rust-crate                   
 av-scenechange          0.14.1            rust-crate                   
 av1-grain               0.2.4             rust-crate                   
-babel                   2.18.0            python                       
+babel                   2.19.0            python                       
 backports-tarfile       1.2.0             python                       
 bash                    5.3.9-r1          apk                          
 bitflags                2.9.1             rust-crate                   
